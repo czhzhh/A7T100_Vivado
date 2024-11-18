@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1731748086">
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="Ece253_BlockDesign_wrapper_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS" Name="Ece253_BlockDesign_wrapper_routed.rqs"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BG-DRC" Name="Ece253_BlockDesign_wrapper.drc"/>
+  <File Type="BG-BGN" Name="Ece253_BlockDesign_wrapper.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="Ece253_BlockDesign_wrapper.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Ece253_BlockDesign_wrapper.ltx"/>
+  <File Type="RBD_FILE" Name="Ece253_BlockDesign_wrapper.rbd"/>
+  <File Type="NPI_FILE" Name="Ece253_BlockDesign_wrapper.npi"/>
+  <File Type="RNPI_FILE" Name="Ece253_BlockDesign_wrapper.rnpi"/>
+  <File Type="CFI_FILE" Name="Ece253_BlockDesign_wrapper.cfi"/>
+  <File Type="RCFI_FILE" Name="Ece253_BlockDesign_wrapper.rcfi"/>
+  <File Type="RDI-RDI" Name="Ece253_BlockDesign_wrapper.vdi"/>
+  <File Type="PDI-FILE" Name="Ece253_BlockDesign_wrapper.pdi"/>
+  <File Type="BITSTR-MMI" Name="Ece253_BlockDesign_wrapper.mmi"/>
+  <File Type="BITSTR-BMM" Name="Ece253_BlockDesign_wrapper_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="Ece253_BlockDesign_wrapper.nky"/>
+  <File Type="BITSTR-RBT" Name="Ece253_BlockDesign_wrapper.rbt"/>
+  <File Type="BITSTR-MSK" Name="Ece253_BlockDesign_wrapper.msk"/>
+  <File Type="BG-BIN" Name="Ece253_BlockDesign_wrapper.bin"/>
+  <File Type="BG-BIT" Name="Ece253_BlockDesign_wrapper.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Ece253_BlockDesign_wrapper_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Ece253_BlockDesign_wrapper_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Ece253_BlockDesign_wrapper_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Ece253_BlockDesign_wrapper_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Ece253_BlockDesign_wrapper_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Ece253_BlockDesign_wrapper_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Ece253_BlockDesign_wrapper_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Ece253_BlockDesign_wrapper_postroute_physopt.dcp"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Ece253_BlockDesign_wrapper_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Ece253_BlockDesign_wrapper_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Ece253_BlockDesign_wrapper_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Ece253_BlockDesign_wrapper_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="Ece253_BlockDesign_wrapper_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Ece253_BlockDesign_wrapper_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="Ece253_BlockDesign_wrapper_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Ece253_BlockDesign_wrapper_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Ece253_BlockDesign_wrapper_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="Ece253_BlockDesign_wrapper_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="Ece253_BlockDesign_wrapper_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="Ece253_BlockDesign_wrapper_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="Ece253_BlockDesign_wrapper_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Ece253_BlockDesign_wrapper_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Ece253_BlockDesign_wrapper_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Ece253_BlockDesign_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="Ece253_BlockDesign_wrapper_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="Ece253_BlockDesign_wrapper_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="Ece253_BlockDesign_wrapper_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Ece253_BlockDesign_wrapper_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="Ece253_BlockDesign_wrapper_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Ece253_BlockDesign_wrapper_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="Ece253_BlockDesign_wrapper_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="Ece253_BlockDesign_wrapper_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Ece253_BlockDesign_wrapper_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Ece253_BlockDesign_wrapper_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Ece253_BlockDesign_wrapper_postplace_pwropt.dcp"/>
+  <File Type="PLACE-TIMING" Name="Ece253_BlockDesign_wrapper_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Ece253_BlockDesign_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Ece253_BlockDesign_wrapper_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="Ece253_BlockDesign_wrapper_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Ece253_BlockDesign_wrapper_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="Ece253_BlockDesign_wrapper_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Ece253_BlockDesign_wrapper_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="Ece253_BlockDesign_wrapper_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="Ece253_BlockDesign_wrapper_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="Ece253_BlockDesign_wrapper_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="Ece253_BlockDesign_wrapper_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="Ece253_BlockDesign_wrapper_pwropt.dcp"/>
+  <File Type="OPT-HWDEF" Name="Ece253_BlockDesign_wrapper.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Ece253_BlockDesign_wrapper_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="Ece253_BlockDesign_wrapper_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="Ece253_BlockDesign_wrapper_opt.dcp"/>
+  <File Type="OPT-TIMING" Name="Ece253_BlockDesign_wrapper_timing_summary_opted.rpt"/>
+  <File Type="REPORTS-TCL" Name="Ece253_BlockDesign_wrapper_reports.tcl"/>
+  <File Type="INIT-TIMING" Name="Ece253_BlockDesign_wrapper_timing_summary_init.rpt"/>
+  <File Type="PA-TCL" Name="Ece253_BlockDesign_wrapper.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/Ece253_BlockDesign/Ece253_BlockDesign.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PGENDIR/sources_1/bd/Ece253_BlockDesign/hdl/Ece253_BlockDesign_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_mig_7series_0_0/mig_a.prj">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="ScopedToCell" Val="Ece253_BlockDesign_mig_7series_0_0"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Ece253_BlockDesign_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/lab_files_2024/Nexys4_Handout_2022.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/lab_files_2024/Nexys4_Handout_2022.xdc"/>
+        <Attr Name="ImportTime" Val="1632630344"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_axi_gpio_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_axi_gpio_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_sevenSeg_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_axi_timer_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_axi_timer_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_microblaze_0_axi_intc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_rst_mig_7series_0_100M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_lmb_bram_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_ilmb_bram_if_cntlr_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_mdm_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_dlmb_bram_if_cntlr_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_ilmb_v10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_dlmb_v10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_microblaze_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_smartconnect_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_mig_7series_0_0"/>
+</GenRun>

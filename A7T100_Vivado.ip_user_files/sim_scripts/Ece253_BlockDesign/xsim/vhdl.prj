@@ -1,0 +1,16 @@
+vhdl xil_defaultlib  \
+"../../../bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_microblaze_0_0/sim/Ece253_BlockDesign_microblaze_0_0.vhd" \
+"../../../bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_dlmb_v10_0/sim/Ece253_BlockDesign_dlmb_v10_0.vhd" \
+"../../../bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_ilmb_v10_0/sim/Ece253_BlockDesign_ilmb_v10_0.vhd" \
+"../../../bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_dlmb_bram_if_cntlr_0/sim/Ece253_BlockDesign_dlmb_bram_if_cntlr_0.vhd" \
+"../../../bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_ilmb_bram_if_cntlr_0/sim/Ece253_BlockDesign_ilmb_bram_if_cntlr_0.vhd" \
+"../../../bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_microblaze_0_axi_intc_0/sim/Ece253_BlockDesign_microblaze_0_axi_intc_0.vhd" \
+"../../../bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_mdm_1_0/sim/Ece253_BlockDesign_mdm_1_0.vhd" \
+"../../../bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_rst_mig_7series_0_100M_0/sim/Ece253_BlockDesign_rst_mig_7series_0_100M_0.vhd" \
+"../../../bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_smartconnect_0_1/bd_0/ip/ip_1/sim/bd_04a4_psr_aclk_0.vhd" \
+"../../../bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_axi_timer_0_0/sim/Ece253_BlockDesign_axi_timer_0_0.vhd" \
+"../../../bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_axi_timer_1_0/sim/Ece253_BlockDesign_axi_timer_1_0.vhd" \
+"../../../bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_axi_gpio_0_0/sim/Ece253_BlockDesign_axi_gpio_0_0.vhd" \
+"../../../bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_axi_gpio_0_1/sim/Ece253_BlockDesign_axi_gpio_0_1.vhd" \
+
+nosort

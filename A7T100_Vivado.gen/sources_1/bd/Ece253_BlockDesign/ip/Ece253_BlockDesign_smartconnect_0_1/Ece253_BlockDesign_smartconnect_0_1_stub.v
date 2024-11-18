@@ -1,10 +1,10 @@
 // Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2022.1 (lin64) Build 3526262 Mon Apr 18 15:47:01 MDT 2022
-// Date        : Sat Nov 16 01:06:22 2024
+// Date        : Sat Nov 16 01:06:19 2024
 // Host        : vivado-aarch64 running 64-bit Ubuntu 24.04.1 LTS
-// Command     : write_verilog -force -mode synth_stub
-//               /home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_smartconnect_0_1/Ece253_BlockDesign_smartconnect_0_1_stub.v
+// Command     : write_verilog -force -mode synth_stub -rename_top Ece253_BlockDesign_smartconnect_0_1 -prefix
+//               Ece253_BlockDesign_smartconnect_0_1_ Ece253_BlockDesign_smartconnect_0_1_stub.v
 // Design      : Ece253_BlockDesign_smartconnect_0_1
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7a100tcsg324-1

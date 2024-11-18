@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2022.1 (lin64) Build 3526262 Mon Apr 18 15:47:01 MDT 2022
-| Date             : Sat Nov 16 01:11:51 2024
+| Date             : Mon Nov 18 00:16:26 2024
 | Host             : vivado-aarch64 running 64-bit Ubuntu 24.04.1 LTS
 | Command          : report_power -file Ece253_BlockDesign_wrapper_power_routed.rpt -pb Ece253_BlockDesign_wrapper_power_summary_routed.pb -rpx Ece253_BlockDesign_wrapper_power_routed.rpx
 | Design           : Ece253_BlockDesign_wrapper
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 1.177        |
+| Total On-Chip Power (W)  | 1.176        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 1.079        |
+| Dynamic (W)              | 1.077        |
 | Device Static (W)        | 0.098        |
 | Effective TJA (C/W)      | 4.6          |
 | Max Ambient (C)          | 79.6         |
@@ -53,24 +53,24 @@ Table of Contents
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
 | Clocks                   |     0.053 |       24 |       --- |             --- |
-| Slice Logic              |     0.032 |    27274 |       --- |             --- |
-|   LUT as Logic           |     0.026 |     9318 |     63400 |           14.70 |
+| Slice Logic              |     0.032 |    27711 |       --- |             --- |
+|   LUT as Logic           |     0.027 |     9525 |     63400 |           15.02 |
 |   LUT as Distributed RAM |     0.003 |     1074 |     19000 |            5.65 |
-|   Register               |     0.002 |    11078 |    126800 |            8.74 |
+|   Register               |     0.002 |    11250 |    126800 |            8.87 |
 |   CARRY4                 |    <0.001 |      301 |     15850 |            1.90 |
 |   F7/F8 Muxes            |    <0.001 |      299 |     63400 |            0.47 |
 |   LUT as Shift Register  |    <0.001 |      353 |     19000 |            1.86 |
-|   Others                 |    <0.001 |     1206 |       --- |             --- |
-| Signals                  |     0.051 |    19279 |       --- |             --- |
+|   Others                 |    <0.001 |     1222 |       --- |             --- |
+| Signals                  |     0.049 |    19596 |       --- |             --- |
 | Block RAM                |     0.133 |       67 |       135 |           49.63 |
 | MMCM                     |     0.117 |        1 |         6 |           16.67 |
 | PLL                      |     0.089 |        1 |         6 |           16.67 |
 | DSPs                     |     0.002 |        3 |       240 |            1.25 |
-| I/O                      |     0.526 |       84 |       210 |           40.00 |
+| I/O                      |     0.526 |       93 |       210 |           44.29 |
 | PHASER                   |     0.072 |       14 |       --- |             --- |
 | XADC                     |     0.004 |        1 |       --- |             --- |
 | Static Power             |     0.098 |          |           |                 |
-| Total                    |     1.177 |          |           |                 |
+| Total                    |     1.176 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -80,7 +80,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.307 |       0.288 |      0.020 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.306 |       0.286 |      0.020 |       NA    | Unspecified | NA         |
 | Vccaux    |       1.800 |     0.213 |       0.195 |      0.018 |       NA    | Unspecified | NA         |
 | Vcco33    |       3.300 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -170,16 +170,14 @@ Table of Contents
 +------------------------------------------------+-----------+
 | Name                                           | Power (W) |
 +------------------------------------------------+-----------+
-| Ece253_BlockDesign_wrapper                     |     1.079 |
-|   Ece253_BlockDesign_i                         |     1.079 |
+| Ece253_BlockDesign_wrapper                     |     1.077 |
+|   Ece253_BlockDesign_i                         |     1.077 |
 |     axi_timer_0                                |     0.003 |
 |       U0                                       |     0.003 |
 |     axi_timer_1                                |     0.003 |
 |       U0                                       |     0.003 |
-|     mdm_1                                      |     0.001 |
-|       U0                                       |     0.001 |
-|     microblaze_0                               |     0.157 |
-|       U0                                       |     0.157 |
+|     microblaze_0                               |     0.155 |
+|       U0                                       |     0.155 |
 |     microblaze_0_axi_intc                      |     0.001 |
 |       U0                                       |     0.001 |
 |     microblaze_0_axi_periph                    |     0.001 |
@@ -190,8 +188,8 @@ Table of Contents
 |       u_Ece253_BlockDesign_mig_7series_0_0_mig |     0.845 |
 |     sevenSeg_0                                 |     0.002 |
 |       inst                                     |     0.002 |
-|     smartconnect_0                             |     0.047 |
-|       inst                                     |     0.047 |
+|     smartconnect_0                             |     0.046 |
+|       inst                                     |     0.046 |
 +------------------------------------------------+-----------+
 
 

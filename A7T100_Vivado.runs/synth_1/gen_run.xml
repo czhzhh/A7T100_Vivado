@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1731748085">
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1731917453" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/Ece253_BlockDesign_wrapper.dcp">
   <File Type="VDS-TIMINGSUMMARY" Name="Ece253_BlockDesign_wrapper_timing_summary_synth.rpt"/>
   <File Type="RDS-DCP" Name="Ece253_BlockDesign_wrapper.dcp"/>
   <File Type="RDS-UTIL-PB" Name="Ece253_BlockDesign_wrapper_utilization_synth.pb"/>
@@ -53,6 +53,14 @@
   </FileSet>
   <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
     <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/Ece253_BlockDesign_wrapper.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
@@ -61,10 +69,12 @@
     <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
     <Step Id="synth_design"/>
   </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_axi_gpio_0_3"/>
   <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_axi_gpio_0_1"/>
   <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_axi_gpio_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_sevenSeg_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_axi_timer_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_axi_gpio_0_2"/>
   <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_axi_timer_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_microblaze_0_axi_intc_0"/>
   <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_xbar_0"/>
@@ -76,6 +86,5 @@
   <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_ilmb_v10_0"/>
   <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_dlmb_v10_0"/>
   <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_microblaze_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_smartconnect_0_1"/>
   <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_mig_7series_0_0"/>
 </GenRun>

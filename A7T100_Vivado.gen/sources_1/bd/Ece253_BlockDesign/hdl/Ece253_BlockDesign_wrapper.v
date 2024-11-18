@@ -1,7 +1,7 @@
 //Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2022.1 (lin64) Build 3526262 Mon Apr 18 15:47:01 MDT 2022
-//Date        : Sat Nov 16 00:59:16 2024
+//Date        : Mon Nov 18 00:10:42 2024
 //Host        : vivado-aarch64 running 64-bit Ubuntu 24.04.1 LTS
 //Command     : generate_target Ece253_BlockDesign_wrapper.bd
 //Design      : Ece253_BlockDesign_wrapper
@@ -24,11 +24,13 @@ module Ece253_BlockDesign_wrapper
     DDR2_odt,
     DDR2_ras_n,
     DDR2_we_n,
+    JD,
     an,
     btn,
     btnCpuReset,
     clock_rtl,
     led,
+    rgbleds,
     seg);
   output [12:0]DDR2_addr;
   output [2:0]DDR2_ba;
@@ -44,11 +46,13 @@ module Ece253_BlockDesign_wrapper
   output [0:0]DDR2_odt;
   output DDR2_ras_n;
   output DDR2_we_n;
+  input [2:0]JD;
   output [7:0]an;
   input [4:0]btn;
   input btnCpuReset;
   input clock_rtl;
   output [15:0]led;
+  output [5:0]rgbleds;
   output [6:0]seg;
 
   wire [12:0]DDR2_addr;
@@ -65,11 +69,13 @@ module Ece253_BlockDesign_wrapper
   wire [0:0]DDR2_odt;
   wire DDR2_ras_n;
   wire DDR2_we_n;
+  wire [2:0]JD;
   wire [7:0]an;
   wire [4:0]btn;
   wire btnCpuReset;
   wire clock_rtl;
   wire [15:0]led;
+  wire [5:0]rgbleds;
   wire [6:0]seg;
 
   Ece253_BlockDesign Ece253_BlockDesign_i
@@ -87,10 +93,12 @@ module Ece253_BlockDesign_wrapper
         .DDR2_odt(DDR2_odt),
         .DDR2_ras_n(DDR2_ras_n),
         .DDR2_we_n(DDR2_we_n),
+        .JD(JD),
         .an(an),
         .btn(btn),
         .btnCpuReset(btnCpuReset),
         .clock_rtl(clock_rtl),
         .led(led),
+        .rgbleds(rgbleds),
         .seg(seg));
 endmodule

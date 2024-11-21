@@ -69,4 +69,13 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Ece253_Bloc
 # IP: bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_axi_gpio_0_3/Ece253_BlockDesign_axi_gpio_0_3.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Ece253_BlockDesign_axi_gpio_0_3 || ORIG_REF_NAME==Ece253_BlockDesign_axi_gpio_0_3} -quiet] -quiet
 
+# IP: bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_axi_gpio_0_4/Ece253_BlockDesign_axi_gpio_0_4.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Ece253_BlockDesign_axi_gpio_0_4 || ORIG_REF_NAME==Ece253_BlockDesign_axi_gpio_0_4} -quiet] -quiet
+
+# IP: bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_clk_wiz_0_1/Ece253_BlockDesign_clk_wiz_0_1.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Ece253_BlockDesign_clk_wiz_0_1 || ORIG_REF_NAME==Ece253_BlockDesign_clk_wiz_0_1} -quiet] -quiet
+
+# IP: bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_axi_quad_spi_0_0/Ece253_BlockDesign_axi_quad_spi_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Ece253_BlockDesign_axi_quad_spi_0_0 || ORIG_REF_NAME==Ece253_BlockDesign_axi_quad_spi_0_0} -quiet] -quiet
+
 # XDC: /home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/Ece253_BlockDesign_ooc.xdc

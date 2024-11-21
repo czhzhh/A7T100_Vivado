@@ -19,10 +19,32 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100
 INFO: [Device 21-403] Loading part xc7a100tcsg324-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 2124316
+INFO: [Synth 8-7075] Helper process launched with PID 7199
+
+*** Running vivado
+    with args -log Ece253_BlockDesign_xbar_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Ece253_BlockDesign_xbar_0.tcl
+
+
+****** Vivado v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source Ece253_BlockDesign_xbar_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/parallels/A7T100_Vivado/lab_files_2024/vivado/seven/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2022.1/data/ip'.
+Command: synth_design -top Ece253_BlockDesign_xbar_0 -part xc7a100tcsg324-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 9962
 WARNING: [Synth 8-9501] generate block is allowed only inside loop and conditional generate in SystemVerilog mode [/opt/Xilinx/Vivado/2022.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:4023]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 3161.250 ; gain = 13.340 ; free physical = 2115 ; free virtual = 4023
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 3161.211 ; gain = 13.312 ; free physical = 2731 ; free virtual = 7240
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_xbar_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_xbar_0/synth/Ece253_BlockDesign_xbar_0.v:53]
 INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_27_axi_crossbar' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/ipshared/3fa0/hdl/axi_crossbar_v2_1_vl_rfs.v:4883]
@@ -48,6 +70,10 @@ INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_comparator_s
 INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized6' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2132]
 INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized7' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2132]
 INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized7' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2132]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized8' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2132]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized8' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2132]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized9' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2132]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized9' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2132]
 INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_27_addr_decoder' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/ipshared/3fa0/hdl/axi_crossbar_v2_1_vl_rfs.v:793]
 INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_27_decerr_slave' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/ipshared/3fa0/hdl/axi_crossbar_v2_1_vl_rfs.v:3500]
 INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_27_decerr_slave' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/ipshared/3fa0/hdl/axi_crossbar_v2_1_vl_rfs.v:3500]
@@ -90,6 +116,8 @@ WARNING: [Synth 8-7129] Port ADDR[1] in module axi_crossbar_v2_1_27_addr_decoder
 WARNING: [Synth 8-7129] Port ADDR[0] in module axi_crossbar_v2_1_27_addr_decoder is either unconnected or has no load
 WARNING: [Synth 8-7129] Port S_AXI_AWID[0] in module axi_crossbar_v2_1_27_crossbar_sasd is either unconnected or has no load
 WARNING: [Synth 8-7129] Port S_AXI_ARID[0] in module axi_crossbar_v2_1_27_crossbar_sasd is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_AXI_BID[10] in module axi_crossbar_v2_1_27_crossbar_sasd is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_AXI_BID[9] in module axi_crossbar_v2_1_27_crossbar_sasd is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M_AXI_BID[8] in module axi_crossbar_v2_1_27_crossbar_sasd is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M_AXI_BID[7] in module axi_crossbar_v2_1_27_crossbar_sasd is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M_AXI_BID[6] in module axi_crossbar_v2_1_27_crossbar_sasd is either unconnected or has no load
@@ -99,6 +127,8 @@ WARNING: [Synth 8-7129] Port M_AXI_BID[3] in module axi_crossbar_v2_1_27_crossba
 WARNING: [Synth 8-7129] Port M_AXI_BID[2] in module axi_crossbar_v2_1_27_crossbar_sasd is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M_AXI_BID[1] in module axi_crossbar_v2_1_27_crossbar_sasd is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M_AXI_BID[0] in module axi_crossbar_v2_1_27_crossbar_sasd is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_AXI_RID[10] in module axi_crossbar_v2_1_27_crossbar_sasd is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_AXI_RID[9] in module axi_crossbar_v2_1_27_crossbar_sasd is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M_AXI_RID[8] in module axi_crossbar_v2_1_27_crossbar_sasd is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M_AXI_RID[7] in module axi_crossbar_v2_1_27_crossbar_sasd is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M_AXI_RID[6] in module axi_crossbar_v2_1_27_crossbar_sasd is either unconnected or has no load
@@ -159,6 +189,8 @@ WARNING: [Synth 8-7129] Port s_axi_arqos[2] in module axi_crossbar_v2_1_27_axi_c
 WARNING: [Synth 8-7129] Port s_axi_arqos[1] in module axi_crossbar_v2_1_27_axi_crossbar is either unconnected or has no load
 WARNING: [Synth 8-7129] Port s_axi_arqos[0] in module axi_crossbar_v2_1_27_axi_crossbar is either unconnected or has no load
 WARNING: [Synth 8-7129] Port s_axi_aruser[0] in module axi_crossbar_v2_1_27_axi_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_bid[10] in module axi_crossbar_v2_1_27_axi_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_bid[9] in module axi_crossbar_v2_1_27_axi_crossbar is either unconnected or has no load
 WARNING: [Synth 8-7129] Port m_axi_bid[8] in module axi_crossbar_v2_1_27_axi_crossbar is either unconnected or has no load
 WARNING: [Synth 8-7129] Port m_axi_bid[7] in module axi_crossbar_v2_1_27_axi_crossbar is either unconnected or has no load
 WARNING: [Synth 8-7129] Port m_axi_bid[6] in module axi_crossbar_v2_1_27_axi_crossbar is either unconnected or has no load
@@ -168,26 +200,20 @@ WARNING: [Synth 8-7129] Port m_axi_bid[3] in module axi_crossbar_v2_1_27_axi_cro
 WARNING: [Synth 8-7129] Port m_axi_bid[2] in module axi_crossbar_v2_1_27_axi_crossbar is either unconnected or has no load
 WARNING: [Synth 8-7129] Port m_axi_bid[1] in module axi_crossbar_v2_1_27_axi_crossbar is either unconnected or has no load
 WARNING: [Synth 8-7129] Port m_axi_bid[0] in module axi_crossbar_v2_1_27_axi_crossbar is either unconnected or has no load
-WARNING: [Synth 8-7129] Port m_axi_buser[8] in module axi_crossbar_v2_1_27_axi_crossbar is either unconnected or has no load
-WARNING: [Synth 8-7129] Port m_axi_buser[7] in module axi_crossbar_v2_1_27_axi_crossbar is either unconnected or has no load
-WARNING: [Synth 8-7129] Port m_axi_buser[6] in module axi_crossbar_v2_1_27_axi_crossbar is either unconnected or has no load
-WARNING: [Synth 8-7129] Port m_axi_buser[5] in module axi_crossbar_v2_1_27_axi_crossbar is either unconnected or has no load
-WARNING: [Synth 8-7129] Port m_axi_buser[4] in module axi_crossbar_v2_1_27_axi_crossbar is either unconnected or has no load
-WARNING: [Synth 8-7129] Port m_axi_buser[3] in module axi_crossbar_v2_1_27_axi_crossbar is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 3165.926 ; gain = 18.016 ; free physical = 1985 ; free virtual = 3962
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 3165.867 ; gain = 17.965 ; free physical = 2616 ; free virtual = 7134
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 3166.133 ; gain = 18.223 ; free physical = 1977 ; free virtual = 3954
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 3166.074 ; gain = 18.172 ; free physical = 2616 ; free virtual = 7135
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 3166.133 ; gain = 18.223 ; free physical = 1977 ; free virtual = 3954
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 3166.074 ; gain = 18.172 ; free physical = 2616 ; free virtual = 7135
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 3166.812 ; gain = 0.062 ; free physical = 1945 ; free virtual = 3922
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.04 . Memory (MB): peak = 3166.754 ; gain = 0.062 ; free physical = 2617 ; free virtual = 7136
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -198,31 +224,31 @@ Parsing XDC File [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/Ece253_BlockD
 Finished Parsing XDC File [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/Ece253_BlockDesign_xbar_0_synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3201.531 ; gain = 0.000 ; free physical = 1976 ; free virtual = 3953
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3195.543 ; gain = 0.000 ; free physical = 2659 ; free virtual = 7191
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.06 . Memory (MB): peak = 3202.035 ; gain = 0.488 ; free physical = 1984 ; free virtual = 3961
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.08 . Memory (MB): peak = 3196.004 ; gain = 0.445 ; free physical = 2657 ; free virtual = 7190
 INFO: [Designutils 20-5008] Incremental synthesis strategy off
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 3204.059 ; gain = 56.148 ; free physical = 2012 ; free virtual = 4009
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 3198.016 ; gain = 50.113 ; free physical = 2668 ; free virtual = 7201
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 3204.180 ; gain = 56.270 ; free physical = 2012 ; free virtual = 4009
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 3198.137 ; gain = 50.234 ; free physical = 2668 ; free virtual = 7201
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /home/parallels/A7T100_Vivado/A7T100_Vivado.runs/Ece253_BlockDesign_xbar_0_synth_1/dont_touch.xdc, line 9).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 3204.227 ; gain = 56.316 ; free physical = 2012 ; free virtual = 4009
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 3198.188 ; gain = 50.285 ; free physical = 2668 ; free virtual = 7201
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 3205.023 ; gain = 57.113 ; free physical = 1997 ; free virtual = 3995
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 3198.984 ; gain = 51.082 ; free physical = 2687 ; free virtual = 7223
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -231,7 +257,7 @@ Detailed RTL Component Info :
 +---Registers : 
 	               64 Bit    Registers := 1     
 	               36 Bit    Registers := 2     
-	               10 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
 	                4 Bit    Registers := 1     
 	                3 Bit    Registers := 1     
 	                2 Bit    Registers := 2     
@@ -239,10 +265,10 @@ Detailed RTL Component Info :
 +---Muxes : 
 	   2 Input   64 Bit        Muxes := 1     
 	   2 Input   36 Bit        Muxes := 2     
-	   2 Input   10 Bit        Muxes := 1     
-	   2 Input    9 Bit        Muxes := 1     
+	   2 Input   12 Bit        Muxes := 1     
+	   2 Input   11 Bit        Muxes := 1     
 	   2 Input    4 Bit        Muxes := 2     
-	   2 Input    1 Bit        Muxes := 78    
+	   2 Input    1 Bit        Muxes := 92    
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -261,25 +287,25 @@ Start Cross Boundary and Area Optimization
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
 INFO: [Synth 8-3936] Found unconnected internal register 'gen_sasd.crossbar_sasd_0/reg_slice_r/m_payload_i_reg' and it is trimmed from '36' to '35' bits. [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/ipshared/0a3f/hdl/axi_register_slice_v2_1_vl_rfs.v:1731]
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 3206.672 ; gain = 58.762 ; free physical = 1974 ; free virtual = 3977
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:23 . Memory (MB): peak = 3200.629 ; gain = 52.727 ; free physical = 2634 ; free virtual = 7199
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 3244.805 ; gain = 96.895 ; free physical = 1741 ; free virtual = 3745
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 3238.746 ; gain = 90.844 ; free physical = 2470 ; free virtual = 7051
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 3245.094 ; gain = 97.184 ; free physical = 1897 ; free virtual = 3907
+Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:29 . Memory (MB): peak = 3239.039 ; gain = 91.137 ; free physical = 2477 ; free virtual = 7059
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 3245.312 ; gain = 97.402 ; free physical = 1893 ; free virtual = 3903
+Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:29 . Memory (MB): peak = 3239.262 ; gain = 91.359 ; free physical = 2472 ; free virtual = 7053
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -297,37 +323,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 3245.426 ; gain = 97.516 ; free physical = 2075 ; free virtual = 4082
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 3239.379 ; gain = 91.477 ; free physical = 2478 ; free virtual = 7059
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 3245.445 ; gain = 97.535 ; free physical = 2075 ; free virtual = 4082
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 3239.395 ; gain = 91.492 ; free physical = 2478 ; free virtual = 7059
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 3245.500 ; gain = 97.590 ; free physical = 2075 ; free virtual = 4082
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 3239.449 ; gain = 91.547 ; free physical = 2478 ; free virtual = 7059
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 3245.508 ; gain = 97.598 ; free physical = 2075 ; free virtual = 4082
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 3239.457 ; gain = 91.555 ; free physical = 2478 ; free virtual = 7059
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 3245.523 ; gain = 97.613 ; free physical = 2075 ; free virtual = 4082
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 3239.477 ; gain = 91.574 ; free physical = 2478 ; free virtual = 7059
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 3245.527 ; gain = 97.617 ; free physical = 2075 ; free virtual = 4082
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 3239.477 ; gain = 91.574 ; free physical = 2478 ; free virtual = 7059
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -344,35 +370,35 @@ Report Cell Usage:
 |      |Cell |Count |
 +------+-----+------+
 |1     |LUT1 |     1|
-|2     |LUT2 |    19|
-|3     |LUT3 |    43|
-|4     |LUT4 |    79|
-|5     |LUT5 |    60|
-|6     |LUT6 |   211|
-|7     |FDRE |   139|
+|2     |LUT2 |    27|
+|3     |LUT3 |    20|
+|4     |LUT4 |    82|
+|5     |LUT5 |    76|
+|6     |LUT6 |   285|
+|7     |FDRE |   141|
 +------+-----+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 3245.559 ; gain = 97.648 ; free physical = 2075 ; free virtual = 4082
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 3239.508 ; gain = 91.605 ; free physical = 2478 ; free virtual = 7060
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 97 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 3245.590 ; gain = 61.383 ; free physical = 2075 ; free virtual = 4082
-Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 3245.602 ; gain = 97.680 ; free physical = 2075 ; free virtual = 4082
+Synthesis finished with 0 errors, 0 critical warnings and 107 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 3239.539 ; gain = 61.312 ; free physical = 2523 ; free virtual = 7105
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 3239.555 ; gain = 91.641 ; free physical = 2523 ; free virtual = 7105
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3245.754 ; gain = 0.000 ; free physical = 2263 ; free virtual = 4270
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3239.707 ; gain = 0.000 ; free physical = 2602 ; free virtual = 7186
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3247.230 ; gain = 0.000 ; free physical = 2274 ; free virtual = 4281
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3241.184 ; gain = 0.000 ; free physical = 2573 ; free virtual = 7158
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Synth Design complete, checksum: 3a780aa4
+Synth Design complete, checksum: 739f6de7
 INFO: [Common 17-83] Releasing license: Synthesis
-64 Infos, 106 Warnings, 0 Critical Warnings and 0 Errors encountered.
+68 Infos, 106 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:38 ; elapsed = 00:00:36 . Memory (MB): peak = 3247.297 ; gain = 126.934 ; free physical = 2442 ; free virtual = 4449
+synth_design: Time (s): cpu = 00:00:38 ; elapsed = 00:00:37 . Memory (MB): peak = 3241.254 ; gain = 120.887 ; free physical = 2738 ; free virtual = 7323
 INFO: [Common 17-1381] The checkpoint '/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/Ece253_BlockDesign_xbar_0_synth_1/Ece253_BlockDesign_xbar_0.dcp' has been generated.
-INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP Ece253_BlockDesign_xbar_0, cache-ID = 7848bfaebe15ebd9
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP Ece253_BlockDesign_xbar_0, cache-ID = 2dca22331e0e0487
 INFO: [Coretcl 2-1174] Renamed 7 cell refs.
 INFO: [Common 17-1381] The checkpoint '/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/Ece253_BlockDesign_xbar_0_synth_1/Ece253_BlockDesign_xbar_0.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file Ece253_BlockDesign_xbar_0_utilization_synth.rpt -pb Ece253_BlockDesign_xbar_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon Nov 18 00:11:46 2024...
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 21 13:42:53 2024...

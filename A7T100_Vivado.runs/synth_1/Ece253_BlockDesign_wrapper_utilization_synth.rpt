@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.1 (lin64) Build 3526262 Mon Apr 18 15:47:01 MDT 2022
-| Date         : Thu Nov 21 13:46:06 2024
+| Date         : Thu Nov 21 17:49:27 2024
 | Host         : vivado-aarch64 running 64-bit Ubuntu 24.04.1 LTS
 | Command      : report_utilization -file Ece253_BlockDesign_wrapper_utilization_synth.rpt -pb Ece253_BlockDesign_wrapper_utilization_synth.pb
 | Design       : Ece253_BlockDesign_wrapper
@@ -91,7 +91,7 @@ Table of Contents
 +-----------------------------+------+-------+------------+-----------+-------+
 |          Site Type          | Used | Fixed | Prohibited | Available | Util% |
 +-----------------------------+------+-------+------------+-----------+-------+
-| Bonded IOB                  |   51 |     0 |          0 |       210 | 24.29 |
+| Bonded IOB                  |   54 |     0 |          0 |       210 | 25.71 |
 | Bonded IPADs                |    0 |     0 |          0 |         2 |  0.00 |
 | PHY_CONTROL                 |    0 |     0 |          0 |         6 |  0.00 |
 | PHASER_REF                  |    0 |     0 |          0 |         6 |  0.00 |
@@ -147,8 +147,8 @@ Table of Contents
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| OBUF     |   42 |                  IO |
-| IBUF     |    9 |                  IO |
+| OBUF     |   44 |                  IO |
+| IBUF     |   10 |                  IO |
 +----------+------+---------------------+
 
 
@@ -159,9 +159,11 @@ Table of Contents
 |                   Ref Name                  | Used |
 +---------------------------------------------+------+
 | Ece253_BlockDesign_xbar_0                   |    1 |
+| Ece253_BlockDesign_stream_grabber_0_0       |    1 |
 | Ece253_BlockDesign_smartconnect_0_1         |    1 |
 | Ece253_BlockDesign_sevenSeg_0_0             |    1 |
 | Ece253_BlockDesign_rst_mig_7series_0_100M_0 |    1 |
+| Ece253_BlockDesign_nopll_mic_block_0_0      |    1 |
 | Ece253_BlockDesign_mig_7series_0_0          |    1 |
 | Ece253_BlockDesign_microblaze_0_axi_intc_0  |    1 |
 | Ece253_BlockDesign_microblaze_0_0           |    1 |

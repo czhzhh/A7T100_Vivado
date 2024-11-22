@@ -1,7 +1,7 @@
 //Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2022.1 (lin64) Build 3526262 Mon Apr 18 15:47:01 MDT 2022
-//Date        : Thu Nov 21 13:39:24 2024
+//Date        : Thu Nov 21 17:43:04 2024
 //Host        : vivado-aarch64 running 64-bit Ubuntu 24.04.1 LTS
 //Command     : generate_target Ece253_BlockDesign_wrapper.bd
 //Design      : Ece253_BlockDesign_wrapper
@@ -31,6 +31,9 @@ module Ece253_BlockDesign_wrapper
     clock_rtl,
     io0_o,
     led,
+    mic_clk,
+    mic_data_in,
+    mic_lr_sel,
     reset_spi,
     rgbleds,
     sck_o,
@@ -58,6 +61,9 @@ module Ece253_BlockDesign_wrapper
   input clock_rtl;
   output io0_o;
   output [15:0]led;
+  output mic_clk;
+  input mic_data_in;
+  output mic_lr_sel;
   output reset_spi;
   output [5:0]rgbleds;
   output sck_o;
@@ -86,6 +92,9 @@ module Ece253_BlockDesign_wrapper
   wire clock_rtl;
   wire io0_o;
   wire [15:0]led;
+  wire mic_clk;
+  wire mic_data_in;
+  wire mic_lr_sel;
   wire reset_spi;
   wire [5:0]rgbleds;
   wire sck_o;
@@ -115,6 +124,9 @@ module Ece253_BlockDesign_wrapper
         .clock_rtl(clock_rtl),
         .io0_o(io0_o),
         .led(led),
+        .mic_clk(mic_clk),
+        .mic_data_in(mic_data_in),
+        .mic_lr_sel(mic_lr_sel),
         .reset_spi(reset_spi),
         .rgbleds(rgbleds),
         .sck_o(sck_o),

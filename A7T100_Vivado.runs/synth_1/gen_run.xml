@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1732225321" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/Ece253_BlockDesign_wrapper.dcp">
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1732239916" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/Ece253_BlockDesign_wrapper.dcp">
   <File Type="VDS-TIMINGSUMMARY" Name="Ece253_BlockDesign_wrapper_timing_summary_synth.rpt"/>
   <File Type="RDS-DCP" Name="Ece253_BlockDesign_wrapper.dcp"/>
   <File Type="RDS-UTIL-PB" Name="Ece253_BlockDesign_wrapper_utilization_synth.pb"/>
@@ -11,6 +11,24 @@
   <File Type="PA-TCL" Name="Ece253_BlockDesign_wrapper.tcl"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/Lab3A_hw_src/stream_grabber.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/lab_files_2024/Lab3A_hw_src/stream_grabber.v"/>
+        <Attr Name="ImportTime" Val="1510525030"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Lab3A_hw_src/nopll_mic_block.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/lab_files_2024/Lab3A_hw_src/nopll_mic_block.v"/>
+        <Attr Name="ImportTime" Val="1510467876"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/bd/Ece253_BlockDesign/Ece253_BlockDesign.bd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -47,6 +65,14 @@
         <Attr Name="UsedIn" Val="implementation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/constrs_1/imports/Lab3A_hw_src/mic_constraints.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/lab_files_2024/Lab3A_hw_src/mic_constraints.xdc"/>
+        <Attr Name="ImportTime" Val="1510528546"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="ConstrsType" Val="XDC"/>
     </Config>
@@ -69,25 +95,27 @@
     <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
     <Step Id="synth_design"/>
   </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_nopll_mic_block_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_stream_grabber_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_axi_quad_spi_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_clk_wiz_0_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_axi_gpio_0_3"/>
-  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_axi_gpio_0_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_axi_gpio_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_sevenSeg_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_axi_timer_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_axi_gpio_0_4"/>
   <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_axi_gpio_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_axi_gpio_0_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_sevenSeg_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_axi_gpio_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_axi_timer_1_0"/>
   <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_axi_timer_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_microblaze_0_axi_intc_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_xbar_0"/>
   <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_rst_mig_7series_0_100M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_mdm_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_microblaze_0_axi_intc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_axi_gpio_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_xbar_0"/>
   <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_lmb_bram_0"/>
   <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_ilmb_bram_if_cntlr_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_mdm_1_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_dlmb_bram_if_cntlr_0"/>
   <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_ilmb_v10_0"/>
   <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_dlmb_v10_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_axi_quad_spi_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_dlmb_bram_if_cntlr_0"/>
   <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_microblaze_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_axi_gpio_0_4"/>
   <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_mig_7series_0_0"/>
 </GenRun>

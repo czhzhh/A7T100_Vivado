@@ -1,4 +1,5 @@
 set_property SRC_FILE_INFO {cfile:/home/parallels/A7T100_Vivado/A7T100_Vivado.srcs/constrs_1/imports/lab_files_2024/Nexys4_Handout_2022.xdc rfile:../../../A7T100_Vivado.srcs/constrs_1/imports/lab_files_2024/Nexys4_Handout_2022.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:/home/parallels/A7T100_Vivado/A7T100_Vivado.srcs/constrs_1/imports/Lab3A_hw_src/mic_constraints.xdc rfile:../../../A7T100_Vivado.srcs/constrs_1/imports/Lab3A_hw_src/mic_constraints.xdc id:2} [current_design]
 set_property src_info {type:XDC file:1 line:7 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN E3    IOSTANDARD LVCMOS33 } [get_ports { clock_rtl }]; #IO_L12P_T1_MRCC_35 Sch=clk100mhz
 set_property src_info {type:XDC file:1 line:35 export:INPUT save:INPUT read:READ} [current_design]
@@ -103,3 +104,9 @@ set_property src_info {type:XDC file:1 line:136 export:INPUT save:INPUT read:REA
 set_property -dict { PACKAGE_PIN H1    IOSTANDARD LVCMOS33 } [get_ports { JD[1] }]; #IO_L17P_T2_35 Sch=jd[2]
 set_property src_info {type:XDC file:1 line:137 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN G1    IOSTANDARD LVCMOS33 } [get_ports { JD[2] }]; #IO_L17N_T2_35 Sch=jd[3]
+set_property src_info {type:XDC file:2 line:3 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN J5    IOSTANDARD LVCMOS33 } [get_ports { mic_clk }]; #IO_25_35 Sch=m_clk
+set_property src_info {type:XDC file:2 line:4 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN H5    IOSTANDARD LVCMOS33 } [get_ports { mic_data_in }]; #IO_L24N_T3_35 Sch=m_data
+set_property src_info {type:XDC file:2 line:5 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN F5    IOSTANDARD LVCMOS33 } [get_ports { mic_lr_sel }]; #IO_0_35 Sch=m_lrsel

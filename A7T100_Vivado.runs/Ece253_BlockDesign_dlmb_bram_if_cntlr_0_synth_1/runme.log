@@ -13,7 +13,6 @@
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 
 source Ece253_BlockDesign_dlmb_bram_if_cntlr_0.tcl -notrace
-create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 3117.934 ; gain = 9.773 ; free physical = 3848 ; free virtual = 7249
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/parallels/A7T100_Vivado/lab_files_2024/vivado/seven/ip_repo'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2022.1/data/ip'.
@@ -24,153 +23,17 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100
 INFO: [Device 21-403] Loading part xc7a100tcsg324-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 1422585
-
-*** Running vivado
-    with args -log Ece253_BlockDesign_dlmb_bram_if_cntlr_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Ece253_BlockDesign_dlmb_bram_if_cntlr_0.tcl
-
-
-****** Vivado v2022.1 (64-bit)
-  **** SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
-  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
-    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-
-source Ece253_BlockDesign_dlmb_bram_if_cntlr_0.tcl -notrace
-create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 3117.906 ; gain = 9.781 ; free physical = 3403 ; free virtual = 5620
-INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/parallels/A7T100_Vivado/lab_files_2024/vivado/seven/ip_repo'.
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2022.1/data/ip'.
-Command: synth_design -top Ece253_BlockDesign_dlmb_bram_if_cntlr_0 -part xc7a100tcsg324-1 -incremental_mode off -mode out_of_context
-Starting synth_design
-Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
-INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
-INFO: [Device 21-403] Loading part xc7a100tcsg324-1
-INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
-INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 1425908
-
-*** Running vivado
-    with args -log Ece253_BlockDesign_dlmb_bram_if_cntlr_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Ece253_BlockDesign_dlmb_bram_if_cntlr_0.tcl
-
-
-****** Vivado v2022.1 (64-bit)
-  **** SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
-  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
-    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-
-source Ece253_BlockDesign_dlmb_bram_if_cntlr_0.tcl -notrace
-INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/parallels/A7T100_Vivado/lab_files_2024/vivado/seven/ip_repo'.
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2022.1/data/ip'.
-Command: synth_design -top Ece253_BlockDesign_dlmb_bram_if_cntlr_0 -part xc7a100tcsg324-1 -incremental_mode off -mode out_of_context
-Starting synth_design
-Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
-INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
-INFO: [Device 21-403] Loading part xc7a100tcsg324-1
-INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
-INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 1429287
-
-*** Running vivado
-    with args -log Ece253_BlockDesign_dlmb_bram_if_cntlr_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Ece253_BlockDesign_dlmb_bram_if_cntlr_0.tcl
-
-
-****** Vivado v2022.1 (64-bit)
-  **** SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
-  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
-    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-
-source Ece253_BlockDesign_dlmb_bram_if_cntlr_0.tcl -notrace
-create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 3115.926 ; gain = 7.777 ; free physical = 3449 ; free virtual = 7714
-INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/parallels/A7T100_Vivado/lab_files_2024/vivado/seven/ip_repo'.
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2022.1/data/ip'.
-Command: synth_design -top Ece253_BlockDesign_dlmb_bram_if_cntlr_0 -part xc7a100tcsg324-1 -incremental_mode off -mode out_of_context
-Starting synth_design
-Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
-INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
-INFO: [Device 21-403] Loading part xc7a100tcsg324-1
-INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
-INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 1432456
-
-*** Running vivado
-    with args -log Ece253_BlockDesign_dlmb_bram_if_cntlr_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Ece253_BlockDesign_dlmb_bram_if_cntlr_0.tcl
-
-
-****** Vivado v2022.1 (64-bit)
-  **** SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
-  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
-    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-
-source Ece253_BlockDesign_dlmb_bram_if_cntlr_0.tcl -notrace
-create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 3117.914 ; gain = 9.781 ; free physical = 3855 ; free virtual = 7404
-INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/parallels/A7T100_Vivado/lab_files_2024/vivado/seven/ip_repo'.
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2022.1/data/ip'.
-Command: synth_design -top Ece253_BlockDesign_dlmb_bram_if_cntlr_0 -part xc7a100tcsg324-1 -incremental_mode off -mode out_of_context
-Starting synth_design
-Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
-INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
-INFO: [Device 21-403] Loading part xc7a100tcsg324-1
-INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
-INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 1436947
-
-*** Running vivado
-    with args -log Ece253_BlockDesign_dlmb_bram_if_cntlr_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Ece253_BlockDesign_dlmb_bram_if_cntlr_0.tcl
-
-
-****** Vivado v2022.1 (64-bit)
-  **** SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
-  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
-    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-
-source Ece253_BlockDesign_dlmb_bram_if_cntlr_0.tcl -notrace
-create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 3117.953 ; gain = 9.789 ; free physical = 3803 ; free virtual = 7540
-INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/parallels/A7T100_Vivado/lab_files_2024/vivado/seven/ip_repo'.
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2022.1/data/ip'.
-Command: synth_design -top Ece253_BlockDesign_dlmb_bram_if_cntlr_0 -part xc7a100tcsg324-1 -incremental_mode off -mode out_of_context
-Starting synth_design
-Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
-INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
-INFO: [Device 21-403] Loading part xc7a100tcsg324-1
-INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
-INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 1441892
-
-*** Running vivado
-    with args -log Ece253_BlockDesign_dlmb_bram_if_cntlr_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Ece253_BlockDesign_dlmb_bram_if_cntlr_0.tcl
-
-
-****** Vivado v2022.1 (64-bit)
-  **** SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
-  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
-    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-
-source Ece253_BlockDesign_dlmb_bram_if_cntlr_0.tcl -notrace
-INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/parallels/A7T100_Vivado/lab_files_2024/vivado/seven/ip_repo'.
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2022.1/data/ip'.
-Command: synth_design -top Ece253_BlockDesign_dlmb_bram_if_cntlr_0 -part xc7a100tcsg324-1 -incremental_mode off -mode out_of_context
-Starting synth_design
-Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
-INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
-INFO: [Device 21-403] Loading part xc7a100tcsg324-1
-INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
-INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 1448173
+INFO: [Synth 8-7075] Helper process launched with PID 79790
 WARNING: [Synth 8-9501] generate block is allowed only inside loop and conditional generate in SystemVerilog mode [/opt/Xilinx/Vivado/2022.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:4023]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 3160.789 ; gain = 10.848 ; free physical = 1858 ; free virtual = 5857
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 3159.824 ; gain = 10.855 ; free physical = 106 ; free virtual = 4485
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'Ece253_BlockDesign_dlmb_bram_if_cntlr_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_dlmb_bram_if_cntlr_0/synth/Ece253_BlockDesign_dlmb_bram_if_cntlr_0.vhd:84]
 	Parameter C_FAMILY bound to: artix7 - type: string 
 	Parameter C_HIGHADDR bound to: 64'b0000000000000000000000000000000000000000000000011111111111111111 
 	Parameter C_BASEADDR bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
 	Parameter C_NUM_LMB bound to: 1 - type: integer 
-	Parameter C_MASK bound to: 64'b0000000000000000000000000000000011000000000000000000000000000000 
+	Parameter C_MASK bound to: 64'b0000000000000000000000000000000011000000000000100000000000000000 
 	Parameter C_MASK1 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
 	Parameter C_MASK2 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
 	Parameter C_MASK3 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
@@ -194,7 +57,7 @@ INFO: [Synth 8-3491] module 'lmb_bram_if_cntlr' declared at '/home/parallels/A7T
 INFO: [Synth 8-638] synthesizing module 'lmb_bram_if_cntlr' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/ipshared/a177/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:4639]
 	Parameter C_TARGET bound to: 2 - type: integer 
 	Parameter C_BASEADDR bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
-	Parameter C_MASK bound to: 64'b0000000000000000000000000000000011000000000000000000000000000000 
+	Parameter C_MASK bound to: 64'b0000000000000000000000000000000011000000000000100000000000000000 
 	Parameter C_MASK1 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
 	Parameter C_MASK2 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
 	Parameter C_MASK3 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
@@ -208,7 +71,7 @@ INFO: [Synth 8-3491] module 'lmb_mux' declared at '/home/parallels/A7T100_Vivado
 INFO: [Synth 8-638] synthesizing module 'lmb_mux' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/ipshared/a177/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3981]
 	Parameter C_AW bound to: 32 - type: integer 
 	Parameter C_BAR bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
-	Parameter C_MASK bound to: 64'b0000000000000000000000000000000011000000000000000000000000000000 
+	Parameter C_MASK bound to: 64'b0000000000000000000000000000000011000000000000100000000000000000 
 INFO: [Synth 8-3491] module 'pselect_mask' declared at '/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/ipshared/a177/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3476' bound to instance 'pselect_mask_lmb' of component 'pselect_mask' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/ipshared/a177/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:4052]
 INFO: [Synth 8-638] synthesizing module 'pselect_mask' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/ipshared/a177/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3491]
 INFO: [Synth 8-256] done synthesizing module 'pselect_mask' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/ipshared/a177/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3491]
@@ -227,7 +90,6 @@ WARNING: [Synth 8-7129] Port A[10] in module pselect_mask is either unconnected 
 WARNING: [Synth 8-7129] Port A[11] in module pselect_mask is either unconnected or has no load
 WARNING: [Synth 8-7129] Port A[12] in module pselect_mask is either unconnected or has no load
 WARNING: [Synth 8-7129] Port A[13] in module pselect_mask is either unconnected or has no load
-WARNING: [Synth 8-7129] Port A[14] in module pselect_mask is either unconnected or has no load
 WARNING: [Synth 8-7129] Port A[15] in module pselect_mask is either unconnected or has no load
 WARNING: [Synth 8-7129] Port A[16] in module pselect_mask is either unconnected or has no load
 WARNING: [Synth 8-7129] Port A[17] in module pselect_mask is either unconnected or has no load
@@ -315,20 +177,21 @@ WARNING: [Synth 8-7129] Port LMB1_AddrStrobe in module lmb_mux is either unconne
 WARNING: [Synth 8-7129] Port LMB1_ReadStrobe in module lmb_mux is either unconnected or has no load
 WARNING: [Synth 8-7129] Port LMB1_WriteStrobe in module lmb_mux is either unconnected or has no load
 WARNING: [Synth 8-7129] Port LMB1_BE[0] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_BE[1] in module lmb_mux is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 3163.855 ; gain = 13.914 ; free physical = 1569 ; free virtual = 5569
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 3162.891 ; gain = 13.922 ; free physical = 1040 ; free virtual = 5407
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 3164.043 ; gain = 14.102 ; free physical = 1569 ; free virtual = 5569
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 3163.086 ; gain = 14.117 ; free physical = 1053 ; free virtual = 5421
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 3164.043 ; gain = 14.102 ; free physical = 1569 ; free virtual = 5569
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 3163.086 ; gain = 14.117 ; free physical = 1053 ; free virtual = 5421
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3164.664 ; gain = 0.055 ; free physical = 1549 ; free virtual = 5549
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3163.703 ; gain = 0.051 ; free physical = 1063 ; free virtual = 5431
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -339,31 +202,31 @@ Parsing XDC File [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/Ece253_BlockD
 Finished Parsing XDC File [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/Ece253_BlockDesign_dlmb_bram_if_cntlr_0_synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 3193.410 ; gain = 0.000 ; free physical = 2367 ; free virtual = 6367
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3197.992 ; gain = 0.000 ; free physical = 1030 ; free virtual = 5411
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 3193.902 ; gain = 0.480 ; free physical = 2363 ; free virtual = 6363
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.04 . Memory (MB): peak = 3197.992 ; gain = 0.000 ; free physical = 1029 ; free virtual = 5411
 INFO: [Designutils 20-5008] Incremental synthesis strategy off
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 3195.934 ; gain = 45.992 ; free physical = 2372 ; free virtual = 6373
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 3197.992 ; gain = 49.023 ; free physical = 962 ; free virtual = 5374
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 3196.055 ; gain = 46.113 ; free physical = 2372 ; free virtual = 6373
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 3197.992 ; gain = 49.023 ; free physical = 962 ; free virtual = 5374
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  /home/parallels/A7T100_Vivado/A7T100_Vivado.runs/Ece253_BlockDesign_dlmb_bram_if_cntlr_0_synth_1/dont_touch.xdc, line 9).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 3196.102 ; gain = 46.160 ; free physical = 2372 ; free virtual = 6373
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 3197.992 ; gain = 49.023 ; free physical = 962 ; free virtual = 5374
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 3196.715 ; gain = 46.773 ; free physical = 2372 ; free virtual = 6374
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 3197.992 ; gain = 49.023 ; free physical = 957 ; free virtual = 5372
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -388,25 +251,25 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 3197.375 ; gain = 47.434 ; free physical = 2396 ; free virtual = 6401
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 3197.992 ; gain = 49.023 ; free physical = 964 ; free virtual = 5386
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 3235.488 ; gain = 85.547 ; free physical = 2308 ; free virtual = 6313
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 3234.434 ; gain = 85.465 ; free physical = 872 ; free virtual = 5302
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 3235.699 ; gain = 85.758 ; free physical = 2311 ; free virtual = 6317
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 3234.645 ; gain = 85.676 ; free physical = 872 ; free virtual = 5302
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 3235.922 ; gain = 85.980 ; free physical = 2316 ; free virtual = 6321
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 3234.867 ; gain = 85.898 ; free physical = 856 ; free virtual = 5287
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -424,37 +287,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 3236.023 ; gain = 86.082 ; free physical = 2674 ; free virtual = 6679
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 3234.969 ; gain = 86.000 ; free physical = 863 ; free virtual = 5293
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 3236.043 ; gain = 86.102 ; free physical = 2674 ; free virtual = 6679
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 3234.984 ; gain = 86.016 ; free physical = 863 ; free virtual = 5293
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 3236.070 ; gain = 86.129 ; free physical = 2674 ; free virtual = 6679
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 3235.016 ; gain = 86.047 ; free physical = 863 ; free virtual = 5293
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 3236.078 ; gain = 86.137 ; free physical = 2674 ; free virtual = 6679
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 3235.020 ; gain = 86.051 ; free physical = 863 ; free virtual = 5293
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 3236.094 ; gain = 86.152 ; free physical = 2674 ; free virtual = 6679
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 3235.039 ; gain = 86.070 ; free physical = 863 ; free virtual = 5293
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 3236.098 ; gain = 86.156 ; free physical = 2674 ; free virtual = 6679
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 3235.043 ; gain = 86.074 ; free physical = 863 ; free virtual = 5293
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -471,31 +334,31 @@ Report Cell Usage:
 |      |Cell |Count |
 +------+-----+------+
 |1     |LUT2 |     2|
-|2     |LUT3 |     1|
-|3     |LUT4 |     4|
+|2     |LUT4 |     1|
+|3     |LUT5 |     4|
 |4     |FDRE |     2|
 +------+-----+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 3236.129 ; gain = 86.188 ; free physical = 2674 ; free virtual = 6679
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 3235.070 ; gain = 86.102 ; free physical = 863 ; free virtual = 5293
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 322 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 3236.160 ; gain = 55.961 ; free physical = 2732 ; free virtual = 6737
-Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 3236.172 ; gain = 86.219 ; free physical = 2732 ; free virtual = 6737
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 3235.102 ; gain = 51.223 ; free physical = 870 ; free virtual = 5301
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 3235.113 ; gain = 86.133 ; free physical = 870 ; free virtual = 5301
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3236.293 ; gain = 0.000 ; free physical = 2716 ; free virtual = 6721
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3235.238 ; gain = 0.000 ; free physical = 870 ; free virtual = 5303
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3237.273 ; gain = 0.000 ; free physical = 2879 ; free virtual = 6884
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3236.113 ; gain = 0.000 ; free physical = 1075 ; free virtual = 5509
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Synth Design complete, checksum: 8cf35824
+Synth Design complete, checksum: 51969ce6
 INFO: [Common 17-83] Releasing license: Synthesis
 28 Infos, 102 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:28 . Memory (MB): peak = 3237.344 ; gain = 114.930 ; free physical = 3024 ; free virtual = 7030
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:29 . Memory (MB): peak = 3236.184 ; gain = 114.762 ; free physical = 1275 ; free virtual = 5709
 INFO: [Common 17-1381] The checkpoint '/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/Ece253_BlockDesign_dlmb_bram_if_cntlr_0_synth_1/Ece253_BlockDesign_dlmb_bram_if_cntlr_0.dcp' has been generated.
-INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP Ece253_BlockDesign_dlmb_bram_if_cntlr_0, cache-ID = a299a0016e88b99a
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP Ece253_BlockDesign_dlmb_bram_if_cntlr_0, cache-ID = d16d2646f7d7910c
 INFO: [Common 17-1381] The checkpoint '/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/Ece253_BlockDesign_dlmb_bram_if_cntlr_0_synth_1/Ece253_BlockDesign_dlmb_bram_if_cntlr_0.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file Ece253_BlockDesign_dlmb_bram_if_cntlr_0_utilization_synth.rpt -pb Ece253_BlockDesign_dlmb_bram_if_cntlr_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sat Nov 16 01:01:56 2024...
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 21 17:45:58 2024...

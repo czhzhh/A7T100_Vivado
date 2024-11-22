@@ -88,39 +88,30 @@
   <FileSets Version="1" Minor="31">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
       <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/imports/Lab3A_hw_src/stream_grabber.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/lab_files_2024/Lab3A_hw_src/stream_grabber.v"/>
+          <Attr Name="ImportTime" Val="1510525030"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Lab3A_hw_src/nopll_mic_block.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/lab_files_2024/Lab3A_hw_src/nopll_mic_block.v"/>
+          <Attr Name="ImportTime" Val="1510467876"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <File Path="$PSRCDIR/sources_1/bd/Ece253_BlockDesign/Ece253_BlockDesign.bd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="Ece253_BlockDesign.bd" FileRelPathName="ip/Ece253_BlockDesign_axi_gpio_0_4/Ece253_BlockDesign_axi_gpio_0_4.xci">
-          <Proxy FileSetName="Ece253_BlockDesign_axi_gpio_0_4"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Ece253_BlockDesign.bd" FileRelPathName="ip/Ece253_BlockDesign_clk_wiz_0_1/Ece253_BlockDesign_clk_wiz_0_1.xci">
-          <Proxy FileSetName="Ece253_BlockDesign_clk_wiz_0_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Ece253_BlockDesign.bd" FileRelPathName="ip/Ece253_BlockDesign_axi_quad_spi_0_0/Ece253_BlockDesign_axi_quad_spi_0_0.xci">
-          <Proxy FileSetName="Ece253_BlockDesign_axi_quad_spi_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Ece253_BlockDesign.bd" FileRelPathName="ip/Ece253_BlockDesign_mig_7series_0_0/Ece253_BlockDesign_mig_7series_0_0.xci">
-          <Proxy FileSetName="Ece253_BlockDesign_mig_7series_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Ece253_BlockDesign.bd" FileRelPathName="ip/Ece253_BlockDesign_microblaze_0_0/Ece253_BlockDesign_microblaze_0_0.xci">
-          <Proxy FileSetName="Ece253_BlockDesign_microblaze_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Ece253_BlockDesign.bd" FileRelPathName="ip/Ece253_BlockDesign_dlmb_v10_0/Ece253_BlockDesign_dlmb_v10_0.xci">
-          <Proxy FileSetName="Ece253_BlockDesign_dlmb_v10_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Ece253_BlockDesign.bd" FileRelPathName="ip/Ece253_BlockDesign_ilmb_v10_0/Ece253_BlockDesign_ilmb_v10_0.xci">
-          <Proxy FileSetName="Ece253_BlockDesign_ilmb_v10_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Ece253_BlockDesign.bd" FileRelPathName="ip/Ece253_BlockDesign_dlmb_bram_if_cntlr_0/Ece253_BlockDesign_dlmb_bram_if_cntlr_0.xci">
-          <Proxy FileSetName="Ece253_BlockDesign_dlmb_bram_if_cntlr_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Ece253_BlockDesign.bd" FileRelPathName="ip/Ece253_BlockDesign_ilmb_bram_if_cntlr_0/Ece253_BlockDesign_ilmb_bram_if_cntlr_0.xci">
-          <Proxy FileSetName="Ece253_BlockDesign_ilmb_bram_if_cntlr_0"/>
-        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="Ece253_BlockDesign.bd" FileRelPathName="ip/Ece253_BlockDesign_lmb_bram_0/Ece253_BlockDesign_lmb_bram_0.xci">
           <Proxy FileSetName="Ece253_BlockDesign_lmb_bram_0"/>
         </CompFileExtendedInfo>
@@ -157,6 +148,39 @@
         <CompFileExtendedInfo CompFileName="Ece253_BlockDesign.bd" FileRelPathName="ip/Ece253_BlockDesign_axi_gpio_0_3/Ece253_BlockDesign_axi_gpio_0_3.xci">
           <Proxy FileSetName="Ece253_BlockDesign_axi_gpio_0_3"/>
         </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Ece253_BlockDesign.bd" FileRelPathName="ip/Ece253_BlockDesign_axi_gpio_0_4/Ece253_BlockDesign_axi_gpio_0_4.xci">
+          <Proxy FileSetName="Ece253_BlockDesign_axi_gpio_0_4"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Ece253_BlockDesign.bd" FileRelPathName="ip/Ece253_BlockDesign_clk_wiz_0_1/Ece253_BlockDesign_clk_wiz_0_1.xci">
+          <Proxy FileSetName="Ece253_BlockDesign_clk_wiz_0_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Ece253_BlockDesign.bd" FileRelPathName="ip/Ece253_BlockDesign_axi_quad_spi_0_0/Ece253_BlockDesign_axi_quad_spi_0_0.xci">
+          <Proxy FileSetName="Ece253_BlockDesign_axi_quad_spi_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Ece253_BlockDesign.bd" FileRelPathName="ip/Ece253_BlockDesign_stream_grabber_0_0/Ece253_BlockDesign_stream_grabber_0_0.xci">
+          <Proxy FileSetName="Ece253_BlockDesign_stream_grabber_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Ece253_BlockDesign.bd" FileRelPathName="ip/Ece253_BlockDesign_nopll_mic_block_0_0/Ece253_BlockDesign_nopll_mic_block_0_0.xci">
+          <Proxy FileSetName="Ece253_BlockDesign_nopll_mic_block_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Ece253_BlockDesign.bd" FileRelPathName="ip/Ece253_BlockDesign_mig_7series_0_0/Ece253_BlockDesign_mig_7series_0_0.xci">
+          <Proxy FileSetName="Ece253_BlockDesign_mig_7series_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Ece253_BlockDesign.bd" FileRelPathName="ip/Ece253_BlockDesign_microblaze_0_0/Ece253_BlockDesign_microblaze_0_0.xci">
+          <Proxy FileSetName="Ece253_BlockDesign_microblaze_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Ece253_BlockDesign.bd" FileRelPathName="ip/Ece253_BlockDesign_dlmb_v10_0/Ece253_BlockDesign_dlmb_v10_0.xci">
+          <Proxy FileSetName="Ece253_BlockDesign_dlmb_v10_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Ece253_BlockDesign.bd" FileRelPathName="ip/Ece253_BlockDesign_ilmb_v10_0/Ece253_BlockDesign_ilmb_v10_0.xci">
+          <Proxy FileSetName="Ece253_BlockDesign_ilmb_v10_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Ece253_BlockDesign.bd" FileRelPathName="ip/Ece253_BlockDesign_dlmb_bram_if_cntlr_0/Ece253_BlockDesign_dlmb_bram_if_cntlr_0.xci">
+          <Proxy FileSetName="Ece253_BlockDesign_dlmb_bram_if_cntlr_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Ece253_BlockDesign.bd" FileRelPathName="ip/Ece253_BlockDesign_ilmb_bram_if_cntlr_0/Ece253_BlockDesign_ilmb_bram_if_cntlr_0.xci">
+          <Proxy FileSetName="Ece253_BlockDesign_ilmb_bram_if_cntlr_0"/>
+        </CompFileExtendedInfo>
       </File>
       <File Path="$PGENDIR/sources_1/bd/Ece253_BlockDesign/hdl/Ece253_BlockDesign_wrapper.v">
         <FileInfo>
@@ -183,6 +207,14 @@
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/lab_files_2024/Nexys4_Handout_2022.xdc"/>
           <Attr Name="ImportTime" Val="1632630344"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/constrs_1/imports/Lab3A_hw_src/mic_constraints.xdc">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/lab_files_2024/Lab3A_hw_src/mic_constraints.xdc"/>
+          <Attr Name="ImportTime" Val="1510528546"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
         </FileInfo>
@@ -345,6 +377,18 @@
     <FileSet Name="Ece253_BlockDesign_axi_quad_spi_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Ece253_BlockDesign_axi_quad_spi_0_0" RelGenDir="$PGENDIR/Ece253_BlockDesign_axi_quad_spi_0_0">
       <Config>
         <Option Name="TopModule" Val="Ece253_BlockDesign_axi_quad_spi_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="Ece253_BlockDesign_stream_grabber_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Ece253_BlockDesign_stream_grabber_0_0" RelGenDir="$PGENDIR/Ece253_BlockDesign_stream_grabber_0_0">
+      <Config>
+        <Option Name="TopModule" Val="Ece253_BlockDesign_stream_grabber_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="Ece253_BlockDesign_nopll_mic_block_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Ece253_BlockDesign_nopll_mic_block_0_0" RelGenDir="$PGENDIR/Ece253_BlockDesign_nopll_mic_block_0_0">
+      <Config>
+        <Option Name="TopModule" Val="Ece253_BlockDesign_nopll_mic_block_0_0"/>
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
@@ -582,6 +626,26 @@
       <RQSFiles/>
     </Run>
     <Run Id="Ece253_BlockDesign_axi_quad_spi_0_0_synth_1" Type="Ft3:Synth" SrcSet="Ece253_BlockDesign_axi_quad_spi_0_0" Part="xc7a100tcsg324-1" ConstrsSet="Ece253_BlockDesign_axi_quad_spi_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Ece253_BlockDesign_axi_quad_spi_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Ece253_BlockDesign_axi_quad_spi_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Ece253_BlockDesign_axi_quad_spi_0_0_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2022"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="Ece253_BlockDesign_stream_grabber_0_0_synth_1" Type="Ft3:Synth" SrcSet="Ece253_BlockDesign_stream_grabber_0_0" Part="xc7a100tcsg324-1" ConstrsSet="Ece253_BlockDesign_stream_grabber_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Ece253_BlockDesign_stream_grabber_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Ece253_BlockDesign_stream_grabber_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Ece253_BlockDesign_stream_grabber_0_0_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2022"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="Ece253_BlockDesign_nopll_mic_block_0_0_synth_1" Type="Ft3:Synth" SrcSet="Ece253_BlockDesign_nopll_mic_block_0_0" Part="xc7a100tcsg324-1" ConstrsSet="Ece253_BlockDesign_nopll_mic_block_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Ece253_BlockDesign_nopll_mic_block_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Ece253_BlockDesign_nopll_mic_block_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Ece253_BlockDesign_nopll_mic_block_0_0_synth_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
@@ -950,6 +1014,40 @@
       <RQSFiles/>
     </Run>
     <Run Id="Ece253_BlockDesign_axi_quad_spi_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7a100tcsg324-1" ConstrsSet="Ece253_BlockDesign_axi_quad_spi_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Ece253_BlockDesign_axi_quad_spi_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Ece253_BlockDesign_axi_quad_spi_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Ece253_BlockDesign_axi_quad_spi_0_0_impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2022"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="Ece253_BlockDesign_stream_grabber_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7a100tcsg324-1" ConstrsSet="Ece253_BlockDesign_stream_grabber_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Ece253_BlockDesign_stream_grabber_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Ece253_BlockDesign_stream_grabber_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Ece253_BlockDesign_stream_grabber_0_0_impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2022"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="Ece253_BlockDesign_nopll_mic_block_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7a100tcsg324-1" ConstrsSet="Ece253_BlockDesign_nopll_mic_block_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Ece253_BlockDesign_nopll_mic_block_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Ece253_BlockDesign_nopll_mic_block_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Ece253_BlockDesign_nopll_mic_block_0_0_impl_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>

@@ -174,6 +174,9 @@ foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
 read_xdc /home/parallels/A7T100_Vivado/A7T100_Vivado.srcs/constrs_1/imports/lab_files_2024/Nexys4_Handout_2022.xdc
 set_property used_in_implementation false [get_files /home/parallels/A7T100_Vivado/A7T100_Vivado.srcs/constrs_1/imports/lab_files_2024/Nexys4_Handout_2022.xdc]
 
+read_xdc /home/parallels/A7T100_Vivado/A7T100_Vivado.srcs/constrs_1/imports/Lab3A_hw_src/mic_constraints.xdc
+set_property used_in_implementation false [get_files /home/parallels/A7T100_Vivado/A7T100_Vivado.srcs/constrs_1/imports/Lab3A_hw_src/mic_constraints.xdc]
+
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]
 set_param ips.enableIPCacheLiteLoad 1

@@ -1,7 +1,7 @@
 -- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2022.1 (lin64) Build 3526262 Mon Apr 18 15:47:01 MDT 2022
--- Date        : Sat Nov 16 01:01:56 2024
+-- Date        : Thu Nov 21 17:45:58 2024
 -- Host        : vivado-aarch64 running 64-bit Ubuntu 24.04.1 LTS
 -- Command     : write_vhdl -force -mode synth_stub
 --               /home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_dlmb_bram_if_cntlr_0/Ece253_BlockDesign_dlmb_bram_if_cntlr_0_stub.vhdl

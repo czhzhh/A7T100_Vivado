@@ -3,6 +3,8 @@
 
 # XDC: imports/lab_files_2024/Nexys4_Handout_2022.xdc
 
+# XDC: imports/Lab3A_hw_src/mic_constraints.xdc
+
 # Block Designs: bd/Ece253_BlockDesign/Ece253_BlockDesign.bd
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Ece253_BlockDesign || ORIG_REF_NAME==Ece253_BlockDesign} -quiet] -quiet
 
@@ -77,5 +79,11 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Ece253_Bloc
 
 # IP: bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_axi_quad_spi_0_0/Ece253_BlockDesign_axi_quad_spi_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Ece253_BlockDesign_axi_quad_spi_0_0 || ORIG_REF_NAME==Ece253_BlockDesign_axi_quad_spi_0_0} -quiet] -quiet
+
+# IP: bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_stream_grabber_0_0/Ece253_BlockDesign_stream_grabber_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Ece253_BlockDesign_stream_grabber_0_0 || ORIG_REF_NAME==Ece253_BlockDesign_stream_grabber_0_0} -quiet] -quiet
+
+# IP: bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_nopll_mic_block_0_0/Ece253_BlockDesign_nopll_mic_block_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Ece253_BlockDesign_nopll_mic_block_0_0 || ORIG_REF_NAME==Ece253_BlockDesign_nopll_mic_block_0_0} -quiet] -quiet
 
 # XDC: /home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/Ece253_BlockDesign_ooc.xdc

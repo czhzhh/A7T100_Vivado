@@ -12,7 +12,7 @@ source Ece253_BlockDesign_wrapper.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/parallels/A7T100_Vivado/lab_files_2024/vivado/seven/ip_repo'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2022.1/data/ip'.
-add_files: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 3136.559 ; gain = 18.035 ; free physical = 2023 ; free virtual = 6244
+add_files: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 3139.543 ; gain = 18.039 ; free physical = 2148 ; free virtual = 6864
 Command: read_checkpoint -auto_incremental -incremental /home/parallels/A7T100_Vivado/A7T100_Vivado.srcs/utils_1/imports/synth_1/Ece253_BlockDesign_wrapper.dcp
 INFO: [Vivado 12-5825] Read reference checkpoint from /home/parallels/A7T100_Vivado/A7T100_Vivado.srcs/utils_1/imports/synth_1/Ece253_BlockDesign_wrapper.dcp for incremental synthesis
 INFO: [Vivado 12-7989] Please ensure there are no constraint changes
@@ -25,158 +25,160 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 82085
+INFO: [Synth 8-7075] Helper process launched with PID 2527002
 WARNING: [Synth 8-9501] generate block is allowed only inside loop and conditional generate in SystemVerilog mode [/opt/Xilinx/Vivado/2022.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:4023]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 3173.605 ; gain = 2.844 ; free physical = 175 ; free virtual = 4397
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 3176.664 ; gain = 2.836 ; free physical = 187 ; free virtual = 4904
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_wrapper' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/hdl/Ece253_BlockDesign_wrapper.v:12]
 INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:12]
-INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_axi_gpio_0_3' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_axi_gpio_0_3_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_axi_gpio_0_3' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_axi_gpio_0_3_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_axi_gpio_0_1' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_axi_gpio_0_1_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_axi_gpio_0_1' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_axi_gpio_0_1_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_axi_gpio_0_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_axi_gpio_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_axi_gpio_0_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_axi_gpio_0_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_axi_gpio_0_2' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_axi_gpio_0_2_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_axi_gpio_0_2' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_axi_gpio_0_2_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_axi_timer_0_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_axi_timer_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_axi_timer_0_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_axi_timer_0_0_stub.v:5]
-WARNING: [Synth 8-7071] port 'generateout0' of module 'Ece253_BlockDesign_axi_timer_0_0' is unconnected for instance 'axi_timer_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:569]
-WARNING: [Synth 8-7071] port 'generateout1' of module 'Ece253_BlockDesign_axi_timer_0_0' is unconnected for instance 'axi_timer_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:569]
-WARNING: [Synth 8-7071] port 'pwm0' of module 'Ece253_BlockDesign_axi_timer_0_0' is unconnected for instance 'axi_timer_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:569]
-WARNING: [Synth 8-7023] instance 'axi_timer_0' of module 'Ece253_BlockDesign_axi_timer_0_0' has 26 connections declared, but only 23 given [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:569]
-INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_axi_timer_1_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_axi_timer_1_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_axi_timer_1_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_axi_timer_1_0_stub.v:5]
-WARNING: [Synth 8-7071] port 'generateout0' of module 'Ece253_BlockDesign_axi_timer_1_0' is unconnected for instance 'axi_timer_1' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:593]
-WARNING: [Synth 8-7071] port 'generateout1' of module 'Ece253_BlockDesign_axi_timer_1_0' is unconnected for instance 'axi_timer_1' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:593]
-WARNING: [Synth 8-7071] port 'pwm0' of module 'Ece253_BlockDesign_axi_timer_1_0' is unconnected for instance 'axi_timer_1' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:593]
-WARNING: [Synth 8-7023] instance 'axi_timer_1' of module 'Ece253_BlockDesign_axi_timer_1_0' has 26 connections declared, but only 23 given [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:593]
-INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_clk_wiz_0_1' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_clk_wiz_0_1_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_clk_wiz_0_1' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_clk_wiz_0_1_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_mdm_1_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_mdm_1_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_mdm_1_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_mdm_1_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'mic_block_imp_1OOIL92' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:4650]
-INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_nopll_mic_block_0_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_nopll_mic_block_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_nopll_mic_block_0_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_nopll_mic_block_0_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_stream_grabber_0_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_stream_grabber_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_stream_grabber_0_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_stream_grabber_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mic_block_imp_1OOIL92' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:4650]
-INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_microblaze_0_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_microblaze_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_microblaze_0_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_microblaze_0_0_stub.v:5]
-WARNING: [Synth 8-7071] port 'M_AXI_IC_AWID' of module 'Ece253_BlockDesign_microblaze_0_0' is unconnected for instance 'microblaze_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:675]
-WARNING: [Synth 8-7071] port 'M_AXI_IC_AWADDR' of module 'Ece253_BlockDesign_microblaze_0_0' is unconnected for instance 'microblaze_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:675]
-WARNING: [Synth 8-7071] port 'M_AXI_IC_AWLEN' of module 'Ece253_BlockDesign_microblaze_0_0' is unconnected for instance 'microblaze_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:675]
-WARNING: [Synth 8-7071] port 'M_AXI_IC_AWSIZE' of module 'Ece253_BlockDesign_microblaze_0_0' is unconnected for instance 'microblaze_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:675]
-WARNING: [Synth 8-7071] port 'M_AXI_IC_AWBURST' of module 'Ece253_BlockDesign_microblaze_0_0' is unconnected for instance 'microblaze_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:675]
-WARNING: [Synth 8-7071] port 'M_AXI_IC_AWLOCK' of module 'Ece253_BlockDesign_microblaze_0_0' is unconnected for instance 'microblaze_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:675]
-WARNING: [Synth 8-7071] port 'M_AXI_IC_AWCACHE' of module 'Ece253_BlockDesign_microblaze_0_0' is unconnected for instance 'microblaze_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:675]
-WARNING: [Synth 8-7071] port 'M_AXI_IC_AWPROT' of module 'Ece253_BlockDesign_microblaze_0_0' is unconnected for instance 'microblaze_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:675]
-WARNING: [Synth 8-7071] port 'M_AXI_IC_AWQOS' of module 'Ece253_BlockDesign_microblaze_0_0' is unconnected for instance 'microblaze_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:675]
-WARNING: [Synth 8-7071] port 'M_AXI_IC_AWVALID' of module 'Ece253_BlockDesign_microblaze_0_0' is unconnected for instance 'microblaze_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:675]
-WARNING: [Synth 8-7071] port 'M_AXI_IC_WDATA' of module 'Ece253_BlockDesign_microblaze_0_0' is unconnected for instance 'microblaze_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:675]
-WARNING: [Synth 8-7071] port 'M_AXI_IC_WSTRB' of module 'Ece253_BlockDesign_microblaze_0_0' is unconnected for instance 'microblaze_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:675]
-WARNING: [Synth 8-7071] port 'M_AXI_IC_WLAST' of module 'Ece253_BlockDesign_microblaze_0_0' is unconnected for instance 'microblaze_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:675]
-WARNING: [Synth 8-7071] port 'M_AXI_IC_WVALID' of module 'Ece253_BlockDesign_microblaze_0_0' is unconnected for instance 'microblaze_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:675]
-WARNING: [Synth 8-7071] port 'M_AXI_IC_BREADY' of module 'Ece253_BlockDesign_microblaze_0_0' is unconnected for instance 'microblaze_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:675]
-WARNING: [Synth 8-7071] port 'M_AXI_IC_ARID' of module 'Ece253_BlockDesign_microblaze_0_0' is unconnected for instance 'microblaze_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:675]
-WARNING: [Synth 8-7071] port 'M_AXI_DC_AWID' of module 'Ece253_BlockDesign_microblaze_0_0' is unconnected for instance 'microblaze_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:675]
-WARNING: [Synth 8-7071] port 'M_AXI_DC_ARID' of module 'Ece253_BlockDesign_microblaze_0_0' is unconnected for instance 'microblaze_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:675]
-WARNING: [Synth 8-7023] instance 'microblaze_0' of module 'Ece253_BlockDesign_microblaze_0_0' has 126 connections declared, but only 108 given [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:675]
-INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_microblaze_0_axi_intc_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_microblaze_0_axi_intc_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_microblaze_0_axi_intc_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_microblaze_0_axi_intc_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_microblaze_0_axi_periph_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1318]
-INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_KR42JP' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:3059]
-INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_KR42JP' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:3059]
-INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_KY2YNS' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:3191]
-INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_KY2YNS' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:3191]
-INFO: [Synth 8-6157] synthesizing module 'm02_couplers_imp_KFFILB' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:3323]
-INFO: [Synth 8-6155] done synthesizing module 'm02_couplers_imp_KFFILB' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:3323]
-INFO: [Synth 8-6157] synthesizing module 'm03_couplers_imp_K019S2' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:3455]
-INFO: [Synth 8-6155] done synthesizing module 'm03_couplers_imp_K019S2' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:3455]
-INFO: [Synth 8-6157] synthesizing module 'm04_couplers_imp_L48UJ5' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:3587]
-INFO: [Synth 8-6155] done synthesizing module 'm04_couplers_imp_L48UJ5' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:3587]
-INFO: [Synth 8-6157] synthesizing module 'm05_couplers_imp_LJR53G' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:3719]
-INFO: [Synth 8-6155] done synthesizing module 'm05_couplers_imp_LJR53G' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:3719]
-INFO: [Synth 8-6157] synthesizing module 'm06_couplers_imp_M1S4H7' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:3851]
-INFO: [Synth 8-6155] done synthesizing module 'm06_couplers_imp_M1S4H7' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:3851]
-INFO: [Synth 8-6157] synthesizing module 'm07_couplers_imp_LUP7EE' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:3997]
-INFO: [Synth 8-6155] done synthesizing module 'm07_couplers_imp_LUP7EE' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:3997]
-INFO: [Synth 8-6157] synthesizing module 'm08_couplers_imp_JT44CT' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:4129]
-INFO: [Synth 8-6155] done synthesizing module 'm08_couplers_imp_JT44CT' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:4129]
-INFO: [Synth 8-6157] synthesizing module 'm09_couplers_imp_JNE234' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:4261]
-INFO: [Synth 8-6155] done synthesizing module 'm09_couplers_imp_JNE234' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:4261]
-INFO: [Synth 8-6157] synthesizing module 'm10_couplers_imp_BLIHFL' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:4393]
-INFO: [Synth 8-6155] done synthesizing module 'm10_couplers_imp_BLIHFL' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:4393]
-INFO: [Synth 8-6157] synthesizing module 'm11_couplers_imp_B8AJFG' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:4525]
-INFO: [Synth 8-6155] done synthesizing module 'm11_couplers_imp_B8AJFG' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:4525]
-INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_12L7FTI' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:5007]
-INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_12L7FTI' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:5007]
-INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_xbar_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_xbar_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_xbar_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_xbar_0_stub.v:5]
-WARNING: [Synth 8-689] width (21) of port connection 'm_axi_arprot' does not match port width (36) of module 'Ece253_BlockDesign_xbar_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:3020]
-WARNING: [Synth 8-689] width (21) of port connection 'm_axi_awprot' does not match port width (36) of module 'Ece253_BlockDesign_xbar_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:3024]
-WARNING: [Synth 8-689] width (44) of port connection 'm_axi_wstrb' does not match port width (48) of module 'Ece253_BlockDesign_xbar_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:3036]
-INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_microblaze_0_axi_periph_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1318]
-INFO: [Synth 8-6157] synthesizing module 'microblaze_0_local_memory_imp_SYHAZ' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:4773]
-INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_dlmb_bram_if_cntlr_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_dlmb_bram_if_cntlr_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_dlmb_bram_if_cntlr_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_dlmb_bram_if_cntlr_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_dlmb_v10_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_dlmb_v10_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_dlmb_v10_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_dlmb_v10_0_stub.v:5]
-WARNING: [Synth 8-7071] port 'LMB_Rst' of module 'Ece253_BlockDesign_dlmb_v10_0' is unconnected for instance 'dlmb_v10' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:4919]
-WARNING: [Synth 8-7023] instance 'dlmb_v10' of module 'Ece253_BlockDesign_dlmb_v10_0' has 25 connections declared, but only 24 given [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:4919]
-INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_ilmb_bram_if_cntlr_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_ilmb_bram_if_cntlr_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_ilmb_bram_if_cntlr_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_ilmb_bram_if_cntlr_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_ilmb_v10_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_ilmb_v10_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_ilmb_v10_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_ilmb_v10_0_stub.v:5]
-WARNING: [Synth 8-7071] port 'LMB_Rst' of module 'Ece253_BlockDesign_ilmb_v10_0' is unconnected for instance 'ilmb_v10' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:4965]
-WARNING: [Synth 8-7023] instance 'ilmb_v10' of module 'Ece253_BlockDesign_ilmb_v10_0' has 25 connections declared, but only 24 given [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:4965]
-INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_lmb_bram_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_lmb_bram_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_lmb_bram_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_lmb_bram_0_stub.v:5]
-WARNING: [Synth 8-7071] port 'rsta_busy' of module 'Ece253_BlockDesign_lmb_bram_0' is unconnected for instance 'lmb_bram' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:4990]
-WARNING: [Synth 8-7071] port 'rstb_busy' of module 'Ece253_BlockDesign_lmb_bram_0' is unconnected for instance 'lmb_bram' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:4990]
-WARNING: [Synth 8-7023] instance 'lmb_bram' of module 'Ece253_BlockDesign_lmb_bram_0' has 16 connections declared, but only 14 given [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:4990]
-INFO: [Synth 8-6155] done synthesizing module 'microblaze_0_local_memory_imp_SYHAZ' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:4773]
+INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_axi_gpio_0_3' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_axi_gpio_0_3_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_axi_gpio_0_3' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_axi_gpio_0_3_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_axi_gpio_0_1' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_axi_gpio_0_1_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_axi_gpio_0_1' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_axi_gpio_0_1_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_axi_gpio_0_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_axi_gpio_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_axi_gpio_0_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_axi_gpio_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_axi_gpio_0_2' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_axi_gpio_0_2_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_axi_gpio_0_2' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_axi_gpio_0_2_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_axi_timer_0_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_axi_timer_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_axi_timer_0_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_axi_timer_0_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'generateout0' of module 'Ece253_BlockDesign_axi_timer_0_0' is unconnected for instance 'axi_timer_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:591]
+WARNING: [Synth 8-7071] port 'generateout1' of module 'Ece253_BlockDesign_axi_timer_0_0' is unconnected for instance 'axi_timer_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:591]
+WARNING: [Synth 8-7071] port 'pwm0' of module 'Ece253_BlockDesign_axi_timer_0_0' is unconnected for instance 'axi_timer_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:591]
+WARNING: [Synth 8-7023] instance 'axi_timer_0' of module 'Ece253_BlockDesign_axi_timer_0_0' has 26 connections declared, but only 23 given [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:591]
+INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_axi_timer_1_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_axi_timer_1_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_axi_timer_1_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_axi_timer_1_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'generateout0' of module 'Ece253_BlockDesign_axi_timer_1_0' is unconnected for instance 'axi_timer_1' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:615]
+WARNING: [Synth 8-7071] port 'generateout1' of module 'Ece253_BlockDesign_axi_timer_1_0' is unconnected for instance 'axi_timer_1' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:615]
+WARNING: [Synth 8-7071] port 'pwm0' of module 'Ece253_BlockDesign_axi_timer_1_0' is unconnected for instance 'axi_timer_1' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:615]
+WARNING: [Synth 8-7023] instance 'axi_timer_1' of module 'Ece253_BlockDesign_axi_timer_1_0' has 26 connections declared, but only 23 given [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:615]
+INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_clk_wiz_0_1' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_clk_wiz_0_1_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_clk_wiz_0_1' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_clk_wiz_0_1_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_mdm_1_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_mdm_1_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_mdm_1_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_mdm_1_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mic_block_imp_1OOIL92' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:4975]
+INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_nopll_mic_block_0_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_nopll_mic_block_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_nopll_mic_block_0_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_nopll_mic_block_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_stream_grabber_0_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_stream_grabber_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_stream_grabber_0_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_stream_grabber_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mic_block_imp_1OOIL92' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:4975]
+INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_microblaze_0_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_microblaze_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_microblaze_0_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_microblaze_0_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'M_AXI_IC_AWID' of module 'Ece253_BlockDesign_microblaze_0_0' is unconnected for instance 'microblaze_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:697]
+WARNING: [Synth 8-7071] port 'M_AXI_IC_AWADDR' of module 'Ece253_BlockDesign_microblaze_0_0' is unconnected for instance 'microblaze_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:697]
+WARNING: [Synth 8-7071] port 'M_AXI_IC_AWLEN' of module 'Ece253_BlockDesign_microblaze_0_0' is unconnected for instance 'microblaze_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:697]
+WARNING: [Synth 8-7071] port 'M_AXI_IC_AWSIZE' of module 'Ece253_BlockDesign_microblaze_0_0' is unconnected for instance 'microblaze_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:697]
+WARNING: [Synth 8-7071] port 'M_AXI_IC_AWBURST' of module 'Ece253_BlockDesign_microblaze_0_0' is unconnected for instance 'microblaze_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:697]
+WARNING: [Synth 8-7071] port 'M_AXI_IC_AWLOCK' of module 'Ece253_BlockDesign_microblaze_0_0' is unconnected for instance 'microblaze_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:697]
+WARNING: [Synth 8-7071] port 'M_AXI_IC_AWCACHE' of module 'Ece253_BlockDesign_microblaze_0_0' is unconnected for instance 'microblaze_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:697]
+WARNING: [Synth 8-7071] port 'M_AXI_IC_AWPROT' of module 'Ece253_BlockDesign_microblaze_0_0' is unconnected for instance 'microblaze_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:697]
+WARNING: [Synth 8-7071] port 'M_AXI_IC_AWQOS' of module 'Ece253_BlockDesign_microblaze_0_0' is unconnected for instance 'microblaze_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:697]
+WARNING: [Synth 8-7071] port 'M_AXI_IC_AWVALID' of module 'Ece253_BlockDesign_microblaze_0_0' is unconnected for instance 'microblaze_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:697]
+WARNING: [Synth 8-7071] port 'M_AXI_IC_WDATA' of module 'Ece253_BlockDesign_microblaze_0_0' is unconnected for instance 'microblaze_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:697]
+WARNING: [Synth 8-7071] port 'M_AXI_IC_WSTRB' of module 'Ece253_BlockDesign_microblaze_0_0' is unconnected for instance 'microblaze_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:697]
+WARNING: [Synth 8-7071] port 'M_AXI_IC_WLAST' of module 'Ece253_BlockDesign_microblaze_0_0' is unconnected for instance 'microblaze_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:697]
+WARNING: [Synth 8-7071] port 'M_AXI_IC_WVALID' of module 'Ece253_BlockDesign_microblaze_0_0' is unconnected for instance 'microblaze_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:697]
+WARNING: [Synth 8-7071] port 'M_AXI_IC_BREADY' of module 'Ece253_BlockDesign_microblaze_0_0' is unconnected for instance 'microblaze_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:697]
+WARNING: [Synth 8-7071] port 'M_AXI_IC_ARID' of module 'Ece253_BlockDesign_microblaze_0_0' is unconnected for instance 'microblaze_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:697]
+WARNING: [Synth 8-7071] port 'M_AXI_DC_AWID' of module 'Ece253_BlockDesign_microblaze_0_0' is unconnected for instance 'microblaze_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:697]
+WARNING: [Synth 8-7071] port 'M_AXI_DC_ARID' of module 'Ece253_BlockDesign_microblaze_0_0' is unconnected for instance 'microblaze_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:697]
+WARNING: [Synth 8-7023] instance 'microblaze_0' of module 'Ece253_BlockDesign_microblaze_0_0' has 126 connections declared, but only 108 given [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:697]
+INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_microblaze_0_axi_intc_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_microblaze_0_axi_intc_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_microblaze_0_axi_intc_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_microblaze_0_axi_intc_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_microblaze_0_axi_periph_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1382]
+INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_KR42JP' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:3252]
+INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_KR42JP' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:3252]
+INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_KY2YNS' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:3384]
+INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_KY2YNS' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:3384]
+INFO: [Synth 8-6157] synthesizing module 'm02_couplers_imp_KFFILB' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:3516]
+INFO: [Synth 8-6155] done synthesizing module 'm02_couplers_imp_KFFILB' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:3516]
+INFO: [Synth 8-6157] synthesizing module 'm03_couplers_imp_K019S2' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:3648]
+INFO: [Synth 8-6155] done synthesizing module 'm03_couplers_imp_K019S2' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:3648]
+INFO: [Synth 8-6157] synthesizing module 'm04_couplers_imp_L48UJ5' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:3780]
+INFO: [Synth 8-6155] done synthesizing module 'm04_couplers_imp_L48UJ5' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:3780]
+INFO: [Synth 8-6157] synthesizing module 'm05_couplers_imp_LJR53G' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:3912]
+INFO: [Synth 8-6155] done synthesizing module 'm05_couplers_imp_LJR53G' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:3912]
+INFO: [Synth 8-6157] synthesizing module 'm06_couplers_imp_M1S4H7' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:4044]
+INFO: [Synth 8-6155] done synthesizing module 'm06_couplers_imp_M1S4H7' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:4044]
+INFO: [Synth 8-6157] synthesizing module 'm07_couplers_imp_LUP7EE' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:4190]
+INFO: [Synth 8-6155] done synthesizing module 'm07_couplers_imp_LUP7EE' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:4190]
+INFO: [Synth 8-6157] synthesizing module 'm08_couplers_imp_JT44CT' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:4322]
+INFO: [Synth 8-6155] done synthesizing module 'm08_couplers_imp_JT44CT' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:4322]
+INFO: [Synth 8-6157] synthesizing module 'm09_couplers_imp_JNE234' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:4454]
+INFO: [Synth 8-6155] done synthesizing module 'm09_couplers_imp_JNE234' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:4454]
+INFO: [Synth 8-6157] synthesizing module 'm10_couplers_imp_BLIHFL' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:4586]
+INFO: [Synth 8-6155] done synthesizing module 'm10_couplers_imp_BLIHFL' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:4586]
+INFO: [Synth 8-6157] synthesizing module 'm11_couplers_imp_B8AJFG' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:4718]
+INFO: [Synth 8-6155] done synthesizing module 'm11_couplers_imp_B8AJFG' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:4718]
+INFO: [Synth 8-6157] synthesizing module 'm12_couplers_imp_BU2C57' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:4843]
+INFO: [Synth 8-6155] done synthesizing module 'm12_couplers_imp_BU2C57' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:4843]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_12L7FTI' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:5332]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_12L7FTI' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:5332]
+INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_xbar_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_xbar_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_xbar_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_xbar_0_stub.v:5]
+WARNING: [Synth 8-689] width (21) of port connection 'm_axi_arprot' does not match port width (39) of module 'Ece253_BlockDesign_xbar_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:3213]
+WARNING: [Synth 8-689] width (21) of port connection 'm_axi_awprot' does not match port width (39) of module 'Ece253_BlockDesign_xbar_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:3217]
+INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_microblaze_0_axi_periph_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1382]
+INFO: [Synth 8-6157] synthesizing module 'microblaze_0_local_memory_imp_SYHAZ' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:5098]
+INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_dlmb_bram_if_cntlr_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_dlmb_bram_if_cntlr_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_dlmb_bram_if_cntlr_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_dlmb_bram_if_cntlr_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_dlmb_v10_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_dlmb_v10_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_dlmb_v10_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_dlmb_v10_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'LMB_Rst' of module 'Ece253_BlockDesign_dlmb_v10_0' is unconnected for instance 'dlmb_v10' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:5244]
+WARNING: [Synth 8-7023] instance 'dlmb_v10' of module 'Ece253_BlockDesign_dlmb_v10_0' has 25 connections declared, but only 24 given [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:5244]
+INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_ilmb_bram_if_cntlr_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_ilmb_bram_if_cntlr_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_ilmb_bram_if_cntlr_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_ilmb_bram_if_cntlr_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_ilmb_v10_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_ilmb_v10_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_ilmb_v10_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_ilmb_v10_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'LMB_Rst' of module 'Ece253_BlockDesign_ilmb_v10_0' is unconnected for instance 'ilmb_v10' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:5290]
+WARNING: [Synth 8-7023] instance 'ilmb_v10' of module 'Ece253_BlockDesign_ilmb_v10_0' has 25 connections declared, but only 24 given [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:5290]
+INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_lmb_bram_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_lmb_bram_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_lmb_bram_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_lmb_bram_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'rsta_busy' of module 'Ece253_BlockDesign_lmb_bram_0' is unconnected for instance 'lmb_bram' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:5315]
+WARNING: [Synth 8-7071] port 'rstb_busy' of module 'Ece253_BlockDesign_lmb_bram_0' is unconnected for instance 'lmb_bram' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:5315]
+WARNING: [Synth 8-7023] instance 'lmb_bram' of module 'Ece253_BlockDesign_lmb_bram_0' has 16 connections declared, but only 14 given [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:5315]
+INFO: [Synth 8-6155] done synthesizing module 'microblaze_0_local_memory_imp_SYHAZ' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:5098]
 INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_microblaze_0_xlconcat_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_microblaze_0_xlconcat_0/synth/Ece253_BlockDesign_microblaze_0_xlconcat_0.v:53]
 INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_4_xlconcat' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v:14]
 INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_4_xlconcat' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v:14]
 INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_microblaze_0_xlconcat_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_microblaze_0_xlconcat_0/synth/Ece253_BlockDesign_microblaze_0_xlconcat_0.v:53]
-INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_mig_7series_0_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_mig_7series_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_mig_7series_0_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_mig_7series_0_0_stub.v:5]
-WARNING: [Synth 8-7071] port 'ui_addn_clk_1' of module 'Ece253_BlockDesign_mig_7series_0_0' is unconnected for instance 'mig_7series_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1092]
-WARNING: [Synth 8-7071] port 'ui_addn_clk_2' of module 'Ece253_BlockDesign_mig_7series_0_0' is unconnected for instance 'mig_7series_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1092]
-WARNING: [Synth 8-7071] port 'ui_addn_clk_3' of module 'Ece253_BlockDesign_mig_7series_0_0' is unconnected for instance 'mig_7series_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1092]
-WARNING: [Synth 8-7071] port 'ui_addn_clk_4' of module 'Ece253_BlockDesign_mig_7series_0_0' is unconnected for instance 'mig_7series_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1092]
-WARNING: [Synth 8-7071] port 'app_sr_active' of module 'Ece253_BlockDesign_mig_7series_0_0' is unconnected for instance 'mig_7series_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1092]
-WARNING: [Synth 8-7071] port 'app_ref_ack' of module 'Ece253_BlockDesign_mig_7series_0_0' is unconnected for instance 'mig_7series_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1092]
-WARNING: [Synth 8-7071] port 'app_zq_ack' of module 'Ece253_BlockDesign_mig_7series_0_0' is unconnected for instance 'mig_7series_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1092]
-WARNING: [Synth 8-7071] port 's_axi_bid' of module 'Ece253_BlockDesign_mig_7series_0_0' is unconnected for instance 'mig_7series_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1092]
-WARNING: [Synth 8-7071] port 's_axi_rid' of module 'Ece253_BlockDesign_mig_7series_0_0' is unconnected for instance 'mig_7series_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1092]
-WARNING: [Synth 8-7071] port 'init_calib_complete' of module 'Ece253_BlockDesign_mig_7series_0_0' is unconnected for instance 'mig_7series_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1092]
-WARNING: [Synth 8-7023] instance 'mig_7series_0' of module 'Ece253_BlockDesign_mig_7series_0_0' has 67 connections declared, but only 57 given [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1092]
-INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_rst_mig_7series_0_100M_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_rst_mig_7series_0_100M_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_rst_mig_7series_0_100M_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_rst_mig_7series_0_100M_0_stub.v:5]
-WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'Ece253_BlockDesign_rst_mig_7series_0_100M_0' is unconnected for instance 'rst_mig_7series_0_100M' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1150]
-WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'Ece253_BlockDesign_rst_mig_7series_0_100M_0' is unconnected for instance 'rst_mig_7series_0_100M' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1150]
-WARNING: [Synth 8-7023] instance 'rst_mig_7series_0_100M' of module 'Ece253_BlockDesign_rst_mig_7series_0_100M_0' has 10 connections declared, but only 8 given [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1150]
-INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_sevenSeg_0_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_sevenSeg_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_sevenSeg_0_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_sevenSeg_0_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_smartconnect_0_1' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_smartconnect_0_1_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_smartconnect_0_1' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_smartconnect_0_1_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_axi_quad_spi_0_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_axi_quad_spi_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_axi_quad_spi_0_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_axi_quad_spi_0_0_stub.v:5]
-WARNING: [Synth 8-7071] port 'io0_t' of module 'Ece253_BlockDesign_axi_quad_spi_0_0' is unconnected for instance 'spi' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1267]
-WARNING: [Synth 8-7071] port 'io1_o' of module 'Ece253_BlockDesign_axi_quad_spi_0_0' is unconnected for instance 'spi' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1267]
-WARNING: [Synth 8-7071] port 'io1_t' of module 'Ece253_BlockDesign_axi_quad_spi_0_0' is unconnected for instance 'spi' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1267]
-WARNING: [Synth 8-7071] port 'sck_t' of module 'Ece253_BlockDesign_axi_quad_spi_0_0' is unconnected for instance 'spi' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1267]
-WARNING: [Synth 8-7071] port 'ss_t' of module 'Ece253_BlockDesign_axi_quad_spi_0_0' is unconnected for instance 'spi' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1267]
-WARNING: [Synth 8-7071] port 'ip2intc_irpt' of module 'Ece253_BlockDesign_axi_quad_spi_0_0' is unconnected for instance 'spi' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1267]
-WARNING: [Synth 8-7023] instance 'spi' of module 'Ece253_BlockDesign_axi_quad_spi_0_0' has 33 connections declared, but only 27 given [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1267]
-INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_axi_gpio_0_4' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_axi_gpio_0_4_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_axi_gpio_0_4' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-81980-vivado-aarch64/realtime/Ece253_BlockDesign_axi_gpio_0_4_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_mig_7series_0_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_mig_7series_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_mig_7series_0_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_mig_7series_0_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'ui_addn_clk_1' of module 'Ece253_BlockDesign_mig_7series_0_0' is unconnected for instance 'mig_7series_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1134]
+WARNING: [Synth 8-7071] port 'ui_addn_clk_2' of module 'Ece253_BlockDesign_mig_7series_0_0' is unconnected for instance 'mig_7series_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1134]
+WARNING: [Synth 8-7071] port 'ui_addn_clk_3' of module 'Ece253_BlockDesign_mig_7series_0_0' is unconnected for instance 'mig_7series_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1134]
+WARNING: [Synth 8-7071] port 'ui_addn_clk_4' of module 'Ece253_BlockDesign_mig_7series_0_0' is unconnected for instance 'mig_7series_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1134]
+WARNING: [Synth 8-7071] port 'app_sr_active' of module 'Ece253_BlockDesign_mig_7series_0_0' is unconnected for instance 'mig_7series_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1134]
+WARNING: [Synth 8-7071] port 'app_ref_ack' of module 'Ece253_BlockDesign_mig_7series_0_0' is unconnected for instance 'mig_7series_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1134]
+WARNING: [Synth 8-7071] port 'app_zq_ack' of module 'Ece253_BlockDesign_mig_7series_0_0' is unconnected for instance 'mig_7series_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1134]
+WARNING: [Synth 8-7071] port 's_axi_bid' of module 'Ece253_BlockDesign_mig_7series_0_0' is unconnected for instance 'mig_7series_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1134]
+WARNING: [Synth 8-7071] port 's_axi_rid' of module 'Ece253_BlockDesign_mig_7series_0_0' is unconnected for instance 'mig_7series_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1134]
+WARNING: [Synth 8-7071] port 'init_calib_complete' of module 'Ece253_BlockDesign_mig_7series_0_0' is unconnected for instance 'mig_7series_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1134]
+WARNING: [Synth 8-7023] instance 'mig_7series_0' of module 'Ece253_BlockDesign_mig_7series_0_0' has 67 connections declared, but only 57 given [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1134]
+INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_rst_mig_7series_0_100M_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_rst_mig_7series_0_100M_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_rst_mig_7series_0_100M_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_rst_mig_7series_0_100M_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'Ece253_BlockDesign_rst_mig_7series_0_100M_0' is unconnected for instance 'rst_mig_7series_0_100M' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1192]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'Ece253_BlockDesign_rst_mig_7series_0_100M_0' is unconnected for instance 'rst_mig_7series_0_100M' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1192]
+WARNING: [Synth 8-7023] instance 'rst_mig_7series_0_100M' of module 'Ece253_BlockDesign_rst_mig_7series_0_100M_0' has 10 connections declared, but only 8 given [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1192]
+INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_sevenSeg_0_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_sevenSeg_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_sevenSeg_0_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_sevenSeg_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_smartconnect_0_1' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_smartconnect_0_1_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_smartconnect_0_1' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_smartconnect_0_1_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_axi_quad_spi_0_0' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_axi_quad_spi_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_axi_quad_spi_0_0' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_axi_quad_spi_0_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'io0_t' of module 'Ece253_BlockDesign_axi_quad_spi_0_0' is unconnected for instance 'spi' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1309]
+WARNING: [Synth 8-7071] port 'io1_o' of module 'Ece253_BlockDesign_axi_quad_spi_0_0' is unconnected for instance 'spi' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1309]
+WARNING: [Synth 8-7071] port 'io1_t' of module 'Ece253_BlockDesign_axi_quad_spi_0_0' is unconnected for instance 'spi' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1309]
+WARNING: [Synth 8-7071] port 'sck_t' of module 'Ece253_BlockDesign_axi_quad_spi_0_0' is unconnected for instance 'spi' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1309]
+WARNING: [Synth 8-7071] port 'ss_t' of module 'Ece253_BlockDesign_axi_quad_spi_0_0' is unconnected for instance 'spi' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1309]
+WARNING: [Synth 8-7071] port 'ip2intc_irpt' of module 'Ece253_BlockDesign_axi_quad_spi_0_0' is unconnected for instance 'spi' [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1309]
+WARNING: [Synth 8-7023] instance 'spi' of module 'Ece253_BlockDesign_axi_quad_spi_0_0' has 33 connections declared, but only 27 given [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:1309]
+INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_axi_gpio_0_4' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_axi_gpio_0_4_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_axi_gpio_0_4' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_axi_gpio_0_4_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Ece253_BlockDesign_axi_gpio_0_5' [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_axi_gpio_0_5_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_axi_gpio_0_5' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/.Xil/Vivado-2526870-vivado-aarch64/realtime/Ece253_BlockDesign_axi_gpio_0_5_stub.v:5]
 INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/synth/Ece253_BlockDesign.v:12]
 INFO: [Synth 8-6155] done synthesizing module 'Ece253_BlockDesign_wrapper' (0#1) [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/hdl/Ece253_BlockDesign_wrapper.v:12]
-WARNING: [Synth 8-7129] Port In5[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
 WARNING: [Synth 8-7129] Port In6[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
 WARNING: [Synth 8-7129] Port In7[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
 WARNING: [Synth 8-7129] Port In8[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
@@ -276,20 +278,21 @@ WARNING: [Synth 8-7129] Port In101[0] in module xlconcat_v2_1_4_xlconcat is eith
 WARNING: [Synth 8-7129] Port In102[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
 WARNING: [Synth 8-7129] Port In103[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
 WARNING: [Synth 8-7129] Port In104[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In105[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 3175.789 ; gain = 5.027 ; free physical = 1143 ; free virtual = 5260
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 3178.855 ; gain = 5.027 ; free physical = 1090 ; free virtual = 5808
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 3175.977 ; gain = 5.215 ; free physical = 1150 ; free virtual = 5268
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 3179.047 ; gain = 5.219 ; free physical = 1098 ; free virtual = 5816
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 3175.977 ; gain = 5.215 ; free physical = 1150 ; free virtual = 5268
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 3179.047 ; gain = 5.219 ; free physical = 1098 ; free virtual = 5816
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.04 . Memory (MB): peak = 3176.570 ; gain = 0.059 ; free physical = 1150 ; free virtual = 5268
+Netlist sorting complete. Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.05 . Memory (MB): peak = 3179.641 ; gain = 0.059 ; free physical = 1109 ; free virtual = 5827
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -342,6 +345,8 @@ Parsing XDC File [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/E
 Finished Parsing XDC File [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_stream_grabber_0_0/Ece253_BlockDesign_stream_grabber_0_0/Ece253_BlockDesign_stream_grabber_0_0_in_context.xdc] for cell 'Ece253_BlockDesign_i/mic_block/stream_grabber_0'
 Parsing XDC File [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_nopll_mic_block_0_0/Ece253_BlockDesign_nopll_mic_block_0_0/Ece253_BlockDesign_nopll_mic_block_0_0_in_context.xdc] for cell 'Ece253_BlockDesign_i/mic_block/nopll_mic_block_0'
 Finished Parsing XDC File [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_nopll_mic_block_0_0/Ece253_BlockDesign_nopll_mic_block_0_0/Ece253_BlockDesign_nopll_mic_block_0_0_in_context.xdc] for cell 'Ece253_BlockDesign_i/mic_block/nopll_mic_block_0'
+Parsing XDC File [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_axi_gpio_0_5/Ece253_BlockDesign_axi_gpio_0_5/Ece253_BlockDesign_axi_gpio_0_5_in_context.xdc] for cell 'Ece253_BlockDesign_i/switch'
+Finished Parsing XDC File [/home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_axi_gpio_0_5/Ece253_BlockDesign_axi_gpio_0_5/Ece253_BlockDesign_axi_gpio_0_5_in_context.xdc] for cell 'Ece253_BlockDesign_i/switch'
 Parsing XDC File [/home/parallels/A7T100_Vivado/A7T100_Vivado.srcs/constrs_1/imports/lab_files_2024/Nexys4_Handout_2022.xdc]
 Finished Parsing XDC File [/home/parallels/A7T100_Vivado/A7T100_Vivado.srcs/constrs_1/imports/lab_files_2024/Nexys4_Handout_2022.xdc]
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/parallels/A7T100_Vivado/A7T100_Vivado.srcs/constrs_1/imports/lab_files_2024/Nexys4_Handout_2022.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Ece253_BlockDesign_wrapper_propImpl.xdc].
@@ -354,23 +359,23 @@ Parsing XDC File [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/dont_
 Finished Parsing XDC File [/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3192.824 ; gain = 0.000 ; free physical = 1166 ; free virtual = 5285
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3195.891 ; gain = 0.000 ; free physical = 1114 ; free virtual = 5833
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3192.973 ; gain = 0.137 ; free physical = 1162 ; free virtual = 5281
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3196.039 ; gain = 0.137 ; free physical = 1114 ; free virtual = 5833
 WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'Ece253_BlockDesign_i/microblaze_0_local_memory/lmb_bram' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 3195.086 ; gain = 24.324 ; free physical = 1138 ; free virtual = 5256
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 3198.156 ; gain = 24.328 ; free physical = 1136 ; free virtual = 5855
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 3195.207 ; gain = 24.445 ; free physical = 1138 ; free virtual = 5256
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 3198.277 ; gain = 24.449 ; free physical = 1136 ; free virtual = 5855
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -496,11 +501,12 @@ Applied set_property KEEP_HIERARCHY = SOFT for Ece253_BlockDesign_i/clk_wiz_0. (
 Applied set_property KEEP_HIERARCHY = SOFT for Ece253_BlockDesign_i/spi. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for Ece253_BlockDesign_i/mic_block/stream_grabber_0. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for Ece253_BlockDesign_i/mic_block/nopll_mic_block_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for Ece253_BlockDesign_i/switch. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 3195.270 ; gain = 24.508 ; free physical = 1138 ; free virtual = 5256
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 3198.340 ; gain = 24.512 ; free physical = 1136 ; free virtual = 5855
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 3195.371 ; gain = 24.609 ; free physical = 1138 ; free virtual = 5257
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 3198.441 ; gain = 24.613 ; free physical = 1144 ; free virtual = 5864
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -523,25 +529,25 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 3195.906 ; gain = 25.145 ; free physical = 1149 ; free virtual = 5273
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 3198.977 ; gain = 25.148 ; free physical = 1156 ; free virtual = 5881
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 3234.016 ; gain = 63.254 ; free physical = 1096 ; free virtual = 5222
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 3237.062 ; gain = 63.234 ; free physical = 1031 ; free virtual = 5756
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 3234.133 ; gain = 63.371 ; free physical = 1092 ; free virtual = 5218
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 3237.180 ; gain = 63.352 ; free physical = 1031 ; free virtual = 5756
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 3234.238 ; gain = 63.477 ; free physical = 1076 ; free virtual = 5202
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 3237.285 ; gain = 63.457 ; free physical = 1015 ; free virtual = 5740
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -559,37 +565,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 3234.344 ; gain = 63.582 ; free physical = 1089 ; free virtual = 5215
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 3237.391 ; gain = 63.562 ; free physical = 1018 ; free virtual = 5743
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 3234.352 ; gain = 63.590 ; free physical = 1089 ; free virtual = 5215
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 3237.398 ; gain = 63.570 ; free physical = 1018 ; free virtual = 5743
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 3234.430 ; gain = 63.668 ; free physical = 1089 ; free virtual = 5215
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 3237.477 ; gain = 63.648 ; free physical = 1018 ; free virtual = 5743
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 3234.438 ; gain = 63.676 ; free physical = 1096 ; free virtual = 5223
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 3237.484 ; gain = 63.656 ; free physical = 1018 ; free virtual = 5743
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 3234.438 ; gain = 63.676 ; free physical = 1096 ; free virtual = 5223
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 3237.484 ; gain = 63.656 ; free physical = 1018 ; free virtual = 5743
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 3234.441 ; gain = 63.680 ; free physical = 1096 ; free virtual = 5223
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 3237.488 ; gain = 63.660 ; free physical = 1018 ; free virtual = 5743
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -616,61 +622,62 @@ Report BlackBoxes:
 |15    |Ece253_BlockDesign_smartconnect_0_1         |         1|
 |16    |Ece253_BlockDesign_axi_quad_spi_0_0         |         1|
 |17    |Ece253_BlockDesign_axi_gpio_0_4             |         1|
-|18    |Ece253_BlockDesign_nopll_mic_block_0_0      |         1|
-|19    |Ece253_BlockDesign_stream_grabber_0_0       |         1|
-|20    |Ece253_BlockDesign_dlmb_bram_if_cntlr_0     |         1|
-|21    |Ece253_BlockDesign_dlmb_v10_0               |         1|
-|22    |Ece253_BlockDesign_ilmb_bram_if_cntlr_0     |         1|
-|23    |Ece253_BlockDesign_ilmb_v10_0               |         1|
-|24    |Ece253_BlockDesign_lmb_bram_0               |         1|
+|18    |Ece253_BlockDesign_axi_gpio_0_5             |         1|
+|19    |Ece253_BlockDesign_nopll_mic_block_0_0      |         1|
+|20    |Ece253_BlockDesign_stream_grabber_0_0       |         1|
+|21    |Ece253_BlockDesign_dlmb_bram_if_cntlr_0     |         1|
+|22    |Ece253_BlockDesign_dlmb_v10_0               |         1|
+|23    |Ece253_BlockDesign_ilmb_bram_if_cntlr_0     |         1|
+|24    |Ece253_BlockDesign_ilmb_v10_0               |         1|
+|25    |Ece253_BlockDesign_lmb_bram_0               |         1|
 +------+--------------------------------------------+----------+
 
 Report Cell Usage: 
 +------+------------------------------------------+------+
 |      |Cell                                      |Count |
 +------+------------------------------------------+------+
-|1     |Ece253_BlockDesign_axi_gpio_0             |     5|
-|6     |Ece253_BlockDesign_axi_quad_spi_0         |     1|
-|7     |Ece253_BlockDesign_axi_timer_0            |     1|
-|8     |Ece253_BlockDesign_axi_timer_1            |     1|
-|9     |Ece253_BlockDesign_clk_wiz_0              |     1|
-|10    |Ece253_BlockDesign_dlmb_bram_if_cntlr     |     1|
-|11    |Ece253_BlockDesign_dlmb_v10               |     1|
-|12    |Ece253_BlockDesign_ilmb_bram_if_cntlr     |     1|
-|13    |Ece253_BlockDesign_ilmb_v10               |     1|
-|14    |Ece253_BlockDesign_lmb_bram               |     1|
-|15    |Ece253_BlockDesign_mdm_1                  |     1|
-|16    |Ece253_BlockDesign_microblaze_0           |     1|
-|17    |Ece253_BlockDesign_microblaze_0_axi_intc  |     1|
-|18    |Ece253_BlockDesign_mig_7series_0          |     1|
-|19    |Ece253_BlockDesign_nopll_mic_block_0      |     1|
-|20    |Ece253_BlockDesign_rst_mig_7series_0_100M |     1|
-|21    |Ece253_BlockDesign_sevenSeg_0             |     1|
-|22    |Ece253_BlockDesign_smartconnect_0         |     1|
-|23    |Ece253_BlockDesign_stream_grabber_0       |     1|
-|24    |Ece253_BlockDesign_xbar                   |     1|
-|25    |IBUF                                      |    10|
-|26    |OBUF                                      |    44|
+|1     |Ece253_BlockDesign_axi_gpio_0             |     6|
+|7     |Ece253_BlockDesign_axi_quad_spi_0         |     1|
+|8     |Ece253_BlockDesign_axi_timer_0            |     1|
+|9     |Ece253_BlockDesign_axi_timer_1            |     1|
+|10    |Ece253_BlockDesign_clk_wiz_0              |     1|
+|11    |Ece253_BlockDesign_dlmb_bram_if_cntlr     |     1|
+|12    |Ece253_BlockDesign_dlmb_v10               |     1|
+|13    |Ece253_BlockDesign_ilmb_bram_if_cntlr     |     1|
+|14    |Ece253_BlockDesign_ilmb_v10               |     1|
+|15    |Ece253_BlockDesign_lmb_bram               |     1|
+|16    |Ece253_BlockDesign_mdm_1                  |     1|
+|17    |Ece253_BlockDesign_microblaze_0           |     1|
+|18    |Ece253_BlockDesign_microblaze_0_axi_intc  |     1|
+|19    |Ece253_BlockDesign_mig_7series_0          |     1|
+|20    |Ece253_BlockDesign_nopll_mic_block_0      |     1|
+|21    |Ece253_BlockDesign_rst_mig_7series_0_100M |     1|
+|22    |Ece253_BlockDesign_sevenSeg_0             |     1|
+|23    |Ece253_BlockDesign_smartconnect_0         |     1|
+|24    |Ece253_BlockDesign_stream_grabber_0       |     1|
+|25    |Ece253_BlockDesign_xbar                   |     1|
+|26    |IBUF                                      |    26|
+|27    |OBUF                                      |    44|
 +------+------------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 3234.473 ; gain = 63.711 ; free physical = 1096 ; free virtual = 5223
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 3237.520 ; gain = 63.691 ; free physical = 1018 ; free virtual = 5743
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 27 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 3234.508 ; gain = 46.262 ; free physical = 1104 ; free virtual = 5231
-Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 3234.520 ; gain = 63.746 ; free physical = 1104 ; free virtual = 5231
+Synthesis finished with 0 errors, 0 critical warnings and 29 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 3237.551 ; gain = 46.246 ; free physical = 1026 ; free virtual = 5751
+Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 3237.562 ; gain = 63.727 ; free physical = 1026 ; free virtual = 5751
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 3234.656 ; gain = 0.004 ; free physical = 1313 ; free virtual = 5440
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 3237.707 ; gain = 0.008 ; free physical = 1157 ; free virtual = 5882
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3235.508 ; gain = 0.000 ; free physical = 1258 ; free virtual = 5385
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3238.547 ; gain = 0.000 ; free physical = 1144 ; free virtual = 5869
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Synth Design complete, checksum: 8a533614
+Synth Design complete, checksum: f8e7470
 INFO: [Common 17-83] Releasing license: Synthesis
-112 Infos, 161 Warnings, 0 Critical Warnings and 0 Errors encountered.
+116 Infos, 160 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:27 . Memory (MB): peak = 3235.570 ; gain = 99.012 ; free physical = 1437 ; free virtual = 5564
+synth_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:30 . Memory (MB): peak = 3238.613 ; gain = 99.070 ; free physical = 1144 ; free virtual = 5869
 INFO: [Common 17-1381] The checkpoint '/home/parallels/A7T100_Vivado/A7T100_Vivado.runs/synth_1/Ece253_BlockDesign_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file Ece253_BlockDesign_wrapper_utilization_synth.rpt -pb Ece253_BlockDesign_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu Nov 21 17:49:27 2024...
+INFO: [Common 17-206] Exiting Vivado at Mon Dec  2 22:17:02 2024...

@@ -37,7 +37,7 @@ EAStep()
 }
 
 # pre-commands:
-/bin/touch .write_bitstream.begin.rst
+/bin/touch .init_design.begin.rst
 EAStep vivado -log Ece253_BlockDesign_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source Ece253_BlockDesign_wrapper.tcl -notrace
 
 

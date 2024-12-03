@@ -159,6 +159,9 @@ set_property used_in_implementation false [get_files -all /home/parallels/A7T100
 set_property used_in_implementation false [get_files -all /home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_axi_quad_spi_0_0/Ece253_BlockDesign_axi_quad_spi_0_0.xdc]
 set_property used_in_implementation false [get_files -all /home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_axi_quad_spi_0_0/Ece253_BlockDesign_axi_quad_spi_0_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_axi_quad_spi_0_0/Ece253_BlockDesign_axi_quad_spi_0_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_axi_gpio_0_5/Ece253_BlockDesign_axi_gpio_0_5_board.xdc]
+set_property used_in_implementation false [get_files -all /home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_axi_gpio_0_5/Ece253_BlockDesign_axi_gpio_0_5_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_axi_gpio_0_5/Ece253_BlockDesign_axi_gpio_0_5.xdc]
 set_property used_in_implementation false [get_files -all /home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/Ece253_BlockDesign_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_microblaze_0_0/data/mb_bootloop_le.elf]
 

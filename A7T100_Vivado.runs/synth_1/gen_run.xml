@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1732239916" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/Ece253_BlockDesign_wrapper.dcp">
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1733206377" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/Ece253_BlockDesign_wrapper.dcp">
   <File Type="VDS-TIMINGSUMMARY" Name="Ece253_BlockDesign_wrapper_timing_summary_synth.rpt"/>
   <File Type="RDS-DCP" Name="Ece253_BlockDesign_wrapper.dcp"/>
   <File Type="RDS-UTIL-PB" Name="Ece253_BlockDesign_wrapper_utilization_synth.pb"/>
@@ -95,6 +95,7 @@
     <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
     <Step Id="synth_design"/>
   </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_axi_gpio_0_5"/>
   <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_nopll_mic_block_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_stream_grabber_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="Ece253_BlockDesign_axi_quad_spi_0_0"/>

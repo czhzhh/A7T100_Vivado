@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2022.1 (lin64) Build 3526262 Mon Apr 18 15:47:01 MDT 2022
-| Date             : Thu Nov 21 17:53:35 2024
+| Date             : Mon Dec  2 22:21:11 2024
 | Host             : vivado-aarch64 running 64-bit Ubuntu 24.04.1 LTS
 | Command          : report_power -file Ece253_BlockDesign_wrapper_power_routed.rpt -pb Ece253_BlockDesign_wrapper_power_summary_routed.pb -rpx Ece253_BlockDesign_wrapper_power_routed.rpx
 | Design           : Ece253_BlockDesign_wrapper
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 1.311        |
+| Total On-Chip Power (W)  | 1.315        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 1.199        |
+| Dynamic (W)              | 1.203        |
 | Device Static (W)        | 0.112        |
 | Effective TJA (C/W)      | 4.6          |
 | Max Ambient (C)          | 79.0         |
@@ -53,24 +53,24 @@ Table of Contents
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
 | Clocks                   |     0.059 |       27 |       --- |             --- |
-| Slice Logic              |     0.033 |    30876 |       --- |             --- |
-|   LUT as Logic           |     0.027 |    10810 |     63400 |           17.05 |
+| Slice Logic              |     0.034 |    31332 |       --- |             --- |
+|   LUT as Logic           |     0.028 |    10987 |     63400 |           17.33 |
 |   LUT as Distributed RAM |     0.003 |     1074 |     19000 |            5.65 |
-|   Register               |     0.002 |    12571 |    126800 |            9.91 |
+|   Register               |     0.002 |    12820 |    126800 |           10.11 |
 |   CARRY4                 |    <0.001 |      437 |     15850 |            2.76 |
 |   F7/F8 Muxes            |    <0.001 |      299 |     63400 |            0.47 |
 |   LUT as Shift Register  |    <0.001 |      353 |     19000 |            1.86 |
-|   Others                 |    <0.001 |     1342 |       --- |             --- |
-| Signals                  |     0.050 |    21905 |       --- |             --- |
-| Block RAM                |     0.141 |       72 |       135 |           53.33 |
+|   Others                 |    <0.001 |     1352 |       --- |             --- |
+| Signals                  |     0.055 |    22207 |       --- |             --- |
+| Block RAM                |     0.138 |       72 |       135 |           53.33 |
 | MMCM                     |     0.223 |        2 |         6 |           33.33 |
 | PLL                      |     0.089 |        1 |         6 |           16.67 |
 | DSPs                     |     0.002 |        3 |       240 |            1.25 |
-| I/O                      |     0.527 |      101 |       210 |           48.10 |
+| I/O                      |     0.527 |      117 |       210 |           55.71 |
 | PHASER                   |     0.072 |       14 |       --- |             --- |
 | XADC                     |     0.004 |        1 |       --- |             --- |
 | Static Power             |     0.112 |          |           |                 |
-| Total                    |     1.311 |          |           |                 |
+| Total                    |     1.315 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -80,7 +80,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.321 |       0.300 |      0.020 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.324 |       0.304 |      0.020 |       NA    | Unspecified | NA         |
 | Vccaux    |       1.800 |     0.272 |       0.254 |      0.018 |       NA    | Unspecified | NA         |
 | Vcco33    |       3.300 |     0.004 |       0.000 |      0.004 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -89,7 +89,7 @@ Table of Contents
 | Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
-| Vccbram   |       1.000 |     0.013 |       0.010 |      0.002 |       NA    | Unspecified | NA         |
+| Vccbram   |       1.000 |     0.012 |       0.010 |      0.002 |       NA    | Unspecified | NA         |
 | MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vccadc    |       1.800 |     0.022 |       0.002 |      0.020 |       NA    | Unspecified | NA         |
@@ -173,8 +173,8 @@ Table of Contents
 +------------------------------------------------+-----------+
 | Name                                           | Power (W) |
 +------------------------------------------------+-----------+
-| Ece253_BlockDesign_wrapper                     |     1.199 |
-|   Ece253_BlockDesign_i                         |     1.199 |
+| Ece253_BlockDesign_wrapper                     |     1.203 |
+|   Ece253_BlockDesign_i                         |     1.201 |
 |     axi_timer_0                                |     0.003 |
 |       U0                                       |     0.003 |
 |     axi_timer_1                                |     0.003 |
@@ -186,14 +186,14 @@ Table of Contents
 |     mic_block                                  |     0.011 |
 |       nopll_mic_block_0                        |     0.002 |
 |       stream_grabber_0                         |     0.009 |
-|     microblaze_0                               |     0.154 |
-|       U0                                       |     0.154 |
+|     microblaze_0                               |     0.158 |
+|       U0                                       |     0.158 |
 |     microblaze_0_axi_intc                      |     0.001 |
 |       U0                                       |     0.001 |
 |     microblaze_0_axi_periph                    |     0.001 |
 |       xbar                                     |     0.001 |
-|     microblaze_0_local_memory                  |     0.016 |
-|       lmb_bram                                 |     0.016 |
+|     microblaze_0_local_memory                  |     0.012 |
+|       lmb_bram                                 |     0.012 |
 |     mig_7series_0                              |     0.847 |
 |       u_Ece253_BlockDesign_mig_7series_0_0_mig |     0.845 |
 |     sevenSeg_0                                 |     0.002 |
@@ -202,6 +202,8 @@ Table of Contents
 |       inst                                     |     0.047 |
 |     spi                                        |     0.003 |
 |       U0                                       |     0.003 |
+|     switch                                     |     0.001 |
+|       U0                                       |     0.001 |
 +------------------------------------------------+-----------+
 
 

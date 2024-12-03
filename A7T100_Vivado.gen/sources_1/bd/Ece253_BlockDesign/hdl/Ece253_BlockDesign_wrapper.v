@@ -1,7 +1,7 @@
 //Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2022.1 (lin64) Build 3526262 Mon Apr 18 15:47:01 MDT 2022
-//Date        : Thu Nov 21 17:43:04 2024
+//Date        : Mon Dec  2 22:12:42 2024
 //Host        : vivado-aarch64 running 64-bit Ubuntu 24.04.1 LTS
 //Command     : generate_target Ece253_BlockDesign_wrapper.bd
 //Design      : Ece253_BlockDesign_wrapper
@@ -25,6 +25,7 @@ module Ece253_BlockDesign_wrapper
     DDR2_ras_n,
     DDR2_we_n,
     JD,
+    SW,
     an,
     btn,
     btnCpuReset,
@@ -55,6 +56,7 @@ module Ece253_BlockDesign_wrapper
   output DDR2_ras_n;
   output DDR2_we_n;
   input [2:0]JD;
+  input [15:0]SW;
   output [7:0]an;
   input [4:0]btn;
   input btnCpuReset;
@@ -86,6 +88,7 @@ module Ece253_BlockDesign_wrapper
   wire DDR2_ras_n;
   wire DDR2_we_n;
   wire [2:0]JD;
+  wire [15:0]SW;
   wire [7:0]an;
   wire [4:0]btn;
   wire btnCpuReset;
@@ -118,6 +121,7 @@ module Ece253_BlockDesign_wrapper
         .DDR2_ras_n(DDR2_ras_n),
         .DDR2_we_n(DDR2_we_n),
         .JD(JD),
+        .SW(SW),
         .an(an),
         .btn(btn),
         .btnCpuReset(btnCpuReset),

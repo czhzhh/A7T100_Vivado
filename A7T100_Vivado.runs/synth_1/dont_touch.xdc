@@ -86,4 +86,7 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Ece253_Bloc
 # IP: bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_nopll_mic_block_0_0/Ece253_BlockDesign_nopll_mic_block_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Ece253_BlockDesign_nopll_mic_block_0_0 || ORIG_REF_NAME==Ece253_BlockDesign_nopll_mic_block_0_0} -quiet] -quiet
 
+# IP: bd/Ece253_BlockDesign/ip/Ece253_BlockDesign_axi_gpio_0_5/Ece253_BlockDesign_axi_gpio_0_5.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Ece253_BlockDesign_axi_gpio_0_5 || ORIG_REF_NAME==Ece253_BlockDesign_axi_gpio_0_5} -quiet] -quiet
+
 # XDC: /home/parallels/A7T100_Vivado/A7T100_Vivado.gen/sources_1/bd/Ece253_BlockDesign/Ece253_BlockDesign_ooc.xdc
